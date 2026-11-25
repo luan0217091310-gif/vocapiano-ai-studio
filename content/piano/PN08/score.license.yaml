@@ -1,0 +1,36 @@
+# Hồ sơ bản quyền bản nhạc nguồn VocaVerse (D02 — Làn Sản phẩm d02-prod)
+# Sinh tự động và kiểm chứng bởi tools/build_content.py & tools/license_gate.py
+class: public_domain
+pd_scope: global
+title: PN08 — Mary Had a Little Lamb (hai tay cùng lúc, tay trái giữ nốt dài)
+score_id: pn08_mary_had_a_little_lamb
+version: 1.0.0
+lesson_id: lesson.pn08
+instrument: piano
+level: beginner
+composers:
+- 'Edwin Pearce Christy (1815-1862) — giai điệu được gán cho ông: điệp khúc ''Merrily We Roll Along''
+  của ''Goodnight, Ladies'' (dựa trên ''Farewell, Ladies'' 1847; bản hiện nay in 16/05/1867)'
+lyricists:
+- Sarah Josepha Hale (1788-1879) — bài thơ gốc in năm 1830, bản nhạc không lời
+arrangers:
+- Ban Sư phạm VocaVerse (phối hai tay thế Đô, tay trái giữ nốt dài)
+evidence_url: https://en.wikipedia.org/wiki/Goodnight_Ladies
+supporting_evidence_urls:
+- https://en.wikipedia.org/wiki/Mary_Had_a_Little_Lamb
+- https://en.wikipedia.org/wiki/Edwin_Pearce_Christy
+evidence_accessed: '2026-11-18'
+evidence_summary: Giai điệu 'Merrily We Roll Along' (điệp khúc 'Goodnight, Ladies', gán cho Edwin Pearce
+  Christy 1815–1862, dựa trên 'Farewell, Ladies' 1847, bản hiện nay in 16/05/1867); lời Sarah Josepha
+  Hale (1788–1879, in 24/05/1830) không dùng. Mọi tác giả mất <= 1879 (< 1955), công bố <= 1867 (< 1930)
+  => PD toàn cầu. Giai điệu Lowell Mason (thập niên 1830) không dùng (truy cập 2026-11-18).
+publishable: true
+territories:
+- VN
+- GLOBAL
+allowed_uses:
+- lesson_video
+- performance_video
+- shorts
+- in_app
+vocascore_sha256: d7395601d6e9e8b32cd7a4d259cc576e01fe36c55b25b7e01a41e724e7039fd0

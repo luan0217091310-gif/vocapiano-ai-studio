@@ -1,0 +1,85 @@
+{
+  "report": {
+    "schema": "verifyreport/0.2",
+    "id": "verify://vr_t8_pn01@0.1.0",
+    "framemap": {
+      "ref": "framemap://fm_t8_pn01@0.1.0",
+      "sha256": "58ddb17b20be46d53d0a6e94973fa37e84d93c96f5a1c2f189a34b4bfa05066b"
+    },
+    "gate_policy": {
+      "ref": "gatepolicy://d10@2",
+      "sha256": "31ffee12d714d9cc3e09404d65c1612cfc190c839da9178787eb76b260004342"
+    },
+    "instrument": "piano",
+    "t1": {
+      "version": "t1-gate@0.1.0-t8",
+      "passed": true,
+      "events_total": 22,
+      "events_ok": 22,
+      "sp": 1.0,
+      "violations": []
+    },
+    "t2_det": {
+      "version": "t2-det@0.1.0-t8",
+      "frames_checked": 2040,
+      "frame_identity_mismatch": 0,
+      "overlay_check": "pass",
+      "mirror_check": "pass",
+      "events_visible": 22,
+      "events_t1_only": 0,
+      "nf_bb": 1.0,
+      "ff_bb": 1.0,
+      "sync": {
+        "global_offset_ms": 0.5,
+        "note_p95_frames": 0.145,
+        "st": 1.0
+      },
+      "ce": 0
+    },
+    "pfs": {
+      "formula": "pfs/0.2",
+      "bb": 100.0,
+      "threshold": 95.0,
+      "floors_passed": true
+    },
+    "segments": [
+      {
+        "segment_id": "seg01",
+        "result": "pass"
+      }
+    ],
+    "review": {
+      "ml_flags_reviewed": 0,
+      "false_alarm_confirmed": 0,
+      "video_review": "none",
+      "reviewer_id": null,
+      "verdict": "pending"
+    },
+    "tier": "unverified",
+    "decision": "human_review",
+    "license_lanes_used": ["product"],
+    "created_at": "2026-11-20T22:29:24+07:00",
+    "signature": {
+      "alg": "Ed25519",
+      "key_id": "t8-spike-unsigned",
+      "value": "UNSIGNED"
+    }
+  },
+  "metrics": {
+    "frame_count": 2040,
+    "video_s": 34.0,
+    "blender": "5.2.4 LTS",
+    "engine": "BLENDER_EEVEE",
+    "render_s_total": 769.02,
+    "render_s_per_video_min": 1357.1,
+    "vram_peak_mib": null,
+    "cross_runtime_max_mm": 0.0,
+    "overlay": {
+      "frames": 2040,
+      "outside_mean_max": 0.23271055919151237,
+      "outside_p999_max": 5.0,
+      "highlight_on_min_shift": 105.15850340136055,
+      "highlight_off_max_shift": 0.2895658263305325
+    }
+  }
+}

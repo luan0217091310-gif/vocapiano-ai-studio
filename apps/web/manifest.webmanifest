@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "VocaVerse Practice Studio",
+  "short_name": "VocaVerse",
+  "description": "Phòng luyện piano và sáo trúc tương tác cùng gia sư VocaVerse.",
+  "lang": "vi",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0B0E14",
+  "theme_color": "#0B0E14",
+  "icons": [
+    {
+      "src": "/icons/vocaverse.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# Hồ sơ bản quyền bản nhạc nguồn VocaVerse (D02 — Làn Sản phẩm d02-prod)
+# Sinh tự động và kiểm chứng bởi tools/build_content.py & tools/license_gate.py
+class: public_domain
+pd_scope: global
+title: SA08 — Hänschen klein (kỹ thuật luyến hơi 2–4 nốt trên sáo C5)
+score_id: sa08_hanschen_klein_luyen
+version: 1.0.0
+lesson_id: lesson.sa08
+instrument: sao_truc
+giong: C5
+level: beginner
+composers:
+- Dân ca Đức thế kỷ 19 (thời kỳ Biedermeier 1815-1848)
+lyricists:
+- Franz Wiedemann (1821-1882); bản rút gọn Otto Frömmel (1873-1940) — bản sáo không lời
+arrangers:
+- Ban Sư phạm VocaVerse (đặt 6 cụm luyến 2–4 nốt cho sáo Đô C5)
+evidence_url: https://en.wikipedia.org/wiki/H%C3%A4nschen_klein
+evidence_accessed: '2026-11-18'
+evidence_summary: Dân ca Đức thế kỷ 19, lời gốc Franz Wiedemann (1821–1882), bản rút gọn Otto Frömmel
+  (1873–1940) — PD toàn cầu; bản sáo C5 gắn expert_verified_by=PENDING (truy cập 2026-11-18).
+expert_verified_by: PENDING
+publishable: false
+territories:
+- VN
+- GLOBAL
+allowed_uses:
+- in_app
+vocascore_sha256: c6d6eb1ee211df7e0e292ac0be1aa1d62978d2bc093b39001a319eb9d6ce7f9c

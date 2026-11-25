@@ -1,0 +1,10 @@
+﻿{
+  "name": "vocapiano-ai-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VocaVerse / VocaPiano AI Studio — Web App & Cloudflare Workers Edge deployment",
+  "scripts": {
+    "build": "cd apps/web && npm ci && npm run build:cf",
+    "build:cf": "cd apps/web && npm ci && npm run build:cf"
+  }
+}

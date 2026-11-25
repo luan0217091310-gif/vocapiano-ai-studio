@@ -1,0 +1,625 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+  <work>
+    <work-title>SA07 — Mary Had a Little Lamb ở giọng Đô (âm bịt kín 6 lỗ C5)</work-title>
+  </work>
+  <identification>
+    <encoding>
+      <software>vocaverse_score</software>
+    </encoding>
+  </identification>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Sao Truc</part-name>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>480</divisions>
+        <key>
+          <fifths>0</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>60</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="60"/>
+      </direction>
+      <note id="n01">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1920</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <notations>
+          <articulations>
+            <tenuto/>
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="2">
+      <note>
+        <rest measure="yes"/>
+        <duration>1920</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="3">
+      <note id="n02">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1920</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <notations>
+          <articulations>
+            <tenuto/>
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="4">
+      <note>
+        <rest measure="yes"/>
+        <duration>1920</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="5">
+      <note id="n03">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1920</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <notations>
+          <articulations>
+            <tenuto/>
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="6">
+      <note>
+        <rest measure="yes"/>
+        <duration>1920</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="7">
+      <note id="n04">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1920</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <notations>
+          <articulations>
+            <tenuto/>
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="8">
+      <note>
+        <rest measure="yes"/>
+        <duration>1920</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="9">
+      <note id="n05">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1920</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <notations>
+          <articulations>
+            <tenuto/>
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="10">
+      <note>
+        <rest measure="yes"/>
+        <duration>1920</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="11">
+      <note id="n06">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note id="n07">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+    </measure>
+    <measure number="12">
+      <note id="n08">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+    </measure>
+    <measure number="13">
+      <note>
+        <rest measure="yes"/>
+        <duration>1920</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="14">
+      <note id="n09">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note id="n10">
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+    </measure>
+    <measure number="15">
+      <note id="n11">
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+    </measure>
+    <measure number="16">
+      <note>
+        <rest measure="yes"/>
+        <duration>1920</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="17">
+      <note id="n12">
+        <pitch>
+          <step>B</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note id="n13">
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+    </measure>
+    <measure number="18">
+      <note id="n14">
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+    </measure>
+    <measure number="19">
+      <note>
+        <rest measure="yes"/>
+        <duration>1920</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="20">
+      <note id="n15">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note id="n16">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+    </measure>
+    <measure number="21">
+      <note id="n17">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+      <note>
+        <rest/>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+    </measure>
+    <measure number="22">
+      <note>
+        <rest measure="yes"/>
+        <duration>1920</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="23">
+      <note id="n18">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1920</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <notations>
+          <articulations>
+            <tenuto/>
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="24">
+      <note>
+        <rest measure="yes"/>
+        <duration>1920</duration>
+        <voice>1</voice>
+      </note>
+    </measure>
+    <measure number="25">
+      <note id="n19">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n20">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n21">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n22">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="26">
+      <note id="n23">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n24">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n25">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <notations>
+          <articulations>
+            <breath-mark/>
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="27">
+      <note id="n26">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n27">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n28">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+      </note>
+    </measure>
+    <measure number="28">
+      <note id="n29">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n30">
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n31">
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>960</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <notations>
+          <articulations>
+            <breath-mark/>
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="29">
+      <note id="n32">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n33">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n34">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n35">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="30">
+      <note id="n36">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n37">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n38">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n39">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <notations>
+          <articulations>
+            <breath-mark/>
+          </articulations>
+        </notations>
+      </note>
+    </measure>
+    <measure number="31">
+      <note id="n40">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n41">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n42">
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+      <note id="n43">
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>480</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="32">
+      <note id="n44">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1920</duration>
+        <voice>1</voice>
+        <type>whole</type>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>

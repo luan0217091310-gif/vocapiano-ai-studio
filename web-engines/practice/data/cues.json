@@ -1,0 +1,4052 @@
+{
+  "schema": "vocaverse.practice_cues/0.1",
+  "generator": "tools/export_kb_cues.py",
+  "sources": {
+    "kb_dir": "knowledge/kb",
+    "docs05": {
+      "file": "docs/05_su-pham-va-gia-su-1-1.md",
+      "version": "2.7",
+      "sha256": "236c4061d39c15341764d57666ec2a36fce3486bb1ccf4c0b85b8d21956dc370"
+    },
+    "forbidden_phrases": {
+      "file": "knowledge/safety/forbidden_phrases.yaml",
+      "sha256": "1387d7693aa730fb1818c10e602d05bc8c15bb36948a130b7f4aa99c8d3d48bc"
+    }
+  },
+  "limits": {
+    "max_syllables": 25,
+    "max_syllables_during_play": 15,
+    "slots": [
+      "bar",
+      "k",
+      "expected_note",
+      "direction",
+      "anchor_note",
+      "beats"
+    ]
+  },
+  "summary": {
+    "cards": 24,
+    "cues": 107,
+    "cues_ok": 107,
+    "cues_with_issues": 0,
+    "cues_with_warnings": 0,
+    "spec_cues": 20,
+    "card_issues": 0
+  },
+  "cards": [
+    {
+      "id": "pno.artic.legato_staccato.01",
+      "version": 1,
+      "ref": "kb://pno.artic.legato_staccato.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.pn05"
+      ],
+      "error_codes": [
+        "PNO.ERR.ARTIC",
+        "PNO.ERR.SHORT_NOTE",
+        "PNO.ERR.DYN_FLAT"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.artic.legato_staccato.01.md",
+      "sha256": "8e12f0457000a63e24e6b278b72d19b7997702183cddbbffd1e4fdc7d4f3bac1",
+      "issues": []
+    },
+    {
+      "id": "pno.hands.alternate.01",
+      "version": 1,
+      "ref": "kb://pno.hands.alternate.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.pn07"
+      ],
+      "error_codes": [
+        "PNO.ERR.WRONG_NOTE",
+        "PNO.ERR.RUSH",
+        "PNO.ERR.DRAG"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.hands.alternate.01.md",
+      "sha256": "820e6355ced02084ef9ca7f69eca2b4e71c268af265d3d088d98a95dabb55360",
+      "issues": []
+    },
+    {
+      "id": "pno.hands.g_pos.01",
+      "version": 1,
+      "ref": "kb://pno.hands.g_pos.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.pn10"
+      ],
+      "error_codes": [
+        "PNO.ERR.WRONG_NOTE",
+        "PNO.ERR.PECKING"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.hands.g_pos.01.md",
+      "sha256": "e2458321e2097838e4165e616db71d52fef7391a72807feb2aeb219e22ce7ce0",
+      "issues": []
+    },
+    {
+      "id": "pno.hands.together.01",
+      "version": 1,
+      "ref": "kb://pno.hands.together.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.pn08"
+      ],
+      "error_codes": [
+        "PNO.ERR.HANDS_ASYNC",
+        "PNO.ERR.WRONG_NOTE",
+        "PNO.ERR.SHORT_NOTE"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.hands.together.01.md",
+      "sha256": "4674175acdabf79f20d6a307b76d1ef39bd2e6ec5b808fa2e4006878a7eb78eb",
+      "issues": []
+    },
+    {
+      "id": "pno.lh.c_pos.01",
+      "version": 1,
+      "ref": "kb://pno.lh.c_pos.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.pn04"
+      ],
+      "error_codes": [
+        "PNO.ERR.WRONG_NOTE",
+        "PNO.ERR.PECKING"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.lh.c_pos.01.md",
+      "sha256": "d84c4d8d2afc3ed5e04f63729f35d58c70c426c3b7b0e5f68918e61ddb95ba95",
+      "issues": []
+    },
+    {
+      "id": "pno.lh.i_v7.01",
+      "version": 1,
+      "ref": "kb://pno.lh.i_v7.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "easy",
+      "lesson_refs": [
+        "lesson.pn11"
+      ],
+      "error_codes": [
+        "PNO.ERR.WRONG_NOTE",
+        "PNO.ERR.HANDS_ASYNC"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.lh.i_v7.01.md",
+      "sha256": "b42aceb593610d604753f64b1d3955f7e2e2d0304dd8fd168dde649857edaea9",
+      "issues": []
+    },
+    {
+      "id": "pno.posture.setup.01",
+      "version": 1,
+      "ref": "kb://pno.posture.setup.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.pn01"
+      ],
+      "error_codes": [
+        "PNO.ERR.WRONG_NOTE",
+        "PNO.ERR.PECKING",
+        "PNO.ERR.POSTURE"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.posture.setup.01.md",
+      "sha256": "9fdf0ae99e2c0947598cb02944de827813ba5a35f092ea0d23c68b0405213145",
+      "issues": []
+    },
+    {
+      "id": "pno.review.check1.01",
+      "version": 1,
+      "ref": "kb://pno.review.check1.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.pn06"
+      ],
+      "error_codes": [
+        "PNO.ERR.WRONG_NOTE",
+        "PNO.ERR.RUSH",
+        "PNO.ERR.DRAG",
+        "PNO.ERR.ARTIC",
+        "PNO.ERR.SHORT_NOTE",
+        "PNO.ERR.DYN_FLAT"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.review.check1.01.md",
+      "sha256": "6991aeb650c20e95fe1a8033a69b642d47384cced3f1067c20e844ac7a252185",
+      "issues": []
+    },
+    {
+      "id": "pno.review.check2.01",
+      "version": 1,
+      "ref": "kb://pno.review.check2.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "easy",
+      "lesson_refs": [
+        "lesson.pn12"
+      ],
+      "error_codes": [
+        "PNO.ERR.WRONG_NOTE",
+        "PNO.ERR.RUSH",
+        "PNO.ERR.DRAG",
+        "PNO.ERR.HANDS_ASYNC",
+        "PNO.ERR.REST_SHORT",
+        "PNO.ERR.SHORT_NOTE"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.review.check2.01.md",
+      "sha256": "8e0ad0d72465c1940aa5f2ae956c90e4603229bc9bf812fcd09ba092443dc4bf",
+      "issues": []
+    },
+    {
+      "id": "pno.rh.c_pos.01",
+      "version": 1,
+      "ref": "kb://pno.rh.c_pos.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.pn03"
+      ],
+      "error_codes": [
+        "PNO.ERR.WRONG_NOTE",
+        "PNO.ERR.PECKING"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.rh.c_pos.01.md",
+      "sha256": "658ecd4ccbb1c4826ede25050fab263e64e97c7318e83d88d4d142d7ef32506c",
+      "issues": []
+    },
+    {
+      "id": "pno.rhythm.beat_pf.01",
+      "version": 1,
+      "ref": "kb://pno.rhythm.beat_pf.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.pn02"
+      ],
+      "error_codes": [
+        "PNO.ERR.RUSH",
+        "PNO.ERR.DRAG",
+        "PNO.ERR.DYN_FLAT"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.rhythm.beat_pf.01.md",
+      "sha256": "f0542b0640e352c75f85b4b2a92171ae74960a7440d3c20f47441e6e8e6db271",
+      "issues": []
+    },
+    {
+      "id": "pno.rhythm.three_four.01",
+      "version": 1,
+      "ref": "kb://pno.rhythm.three_four.01@1",
+      "kb_type": "core",
+      "instrument": "piano",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.pn09"
+      ],
+      "error_codes": [
+        "PNO.ERR.RUSH",
+        "PNO.ERR.DRAG",
+        "PNO.ERR.REST_SHORT",
+        "PNO.ERR.SHORT_NOTE"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/pno.rhythm.three_four.01.md",
+      "sha256": "a587203cc46e542582e63f244b66225f6f36c778712a7c3312c71837201a8165",
+      "issues": []
+    },
+    {
+      "id": "sao.artic.single_tongue.01",
+      "version": 1,
+      "ref": "kb://sao.artic.single_tongue.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.sa05"
+      ],
+      "error_codes": [
+        "SAO.ERR.ONSET_UNCLEAR",
+        "SAO.ERR.PITCH_OFF"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.artic.single_tongue.01.md",
+      "sha256": "4607228d4d0558a1c181283bcfdfc24357359d7c26e2cb83e0d39338147e3833",
+      "issues": []
+    },
+    {
+      "id": "sao.artic.slur.01",
+      "version": 1,
+      "ref": "kb://sao.artic.slur.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.sa08"
+      ],
+      "error_codes": [
+        "SAO.ERR.TONGUE",
+        "SAO.ERR.ONSET_UNCLEAR"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.artic.slur.01.md",
+      "sha256": "a0320344b2ba62f29a956d8dbe6f41568a5311f3f4ab9f2af003b64b528cad84",
+      "issues": []
+    },
+    {
+      "id": "sao.breath.no_flute.01",
+      "version": 1,
+      "ref": "kb://sao.breath.no_flute.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.sa02"
+      ],
+      "error_codes": [
+        "SAO.ERR.BREATH_UNEVEN",
+        "SAO.ERR.POSTURE"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.breath.no_flute.01.md",
+      "sha256": "e358385e2ac59cbdeabe76905880e787c0cfaa0d6b6161f80918313c3640c2b3",
+      "issues": []
+    },
+    {
+      "id": "sao.breath.phrase.01",
+      "version": 1,
+      "ref": "kb://sao.breath.phrase.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.sa09"
+      ],
+      "error_codes": [
+        "SAO.ERR.SHORT_NOTE",
+        "SAO.ERR.PHRASE_BREAK"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.breath.phrase.01.md",
+      "sha256": "41315f1a3df58461d8dab1147b34fe2e6f56d8df6301ba6e10c14c045ccdbd58",
+      "issues": []
+    },
+    {
+      "id": "sao.holes.descend.01",
+      "version": 1,
+      "ref": "kb://sao.holes.descend.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.sa04"
+      ],
+      "error_codes": [
+        "SAO.ERR.PITCH_OFF",
+        "SAO.ERR.NO_TONE"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.holes.descend.01.md",
+      "sha256": "9099e20d99e4790da56b232af85c677e88af6e431050300d42b7987f8b8c4fbf",
+      "issues": []
+    },
+    {
+      "id": "sao.holes.full_scale.01",
+      "version": 1,
+      "ref": "kb://sao.holes.full_scale.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.sa07"
+      ],
+      "error_codes": [
+        "SAO.ERR.PITCH_OFF",
+        "SAO.ERR.NO_TONE",
+        "SAO.ERR.OCT_CRACK"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.holes.full_scale.01.md",
+      "sha256": "b60fb730d82d749b5c87af7ab8034103331afa22657ae4f2f560b5a6018690b4",
+      "issues": []
+    },
+    {
+      "id": "sao.orn.lay_don.01",
+      "version": 1,
+      "ref": "kb://sao.orn.lay_don.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "easy",
+      "lesson_refs": [
+        "lesson.sa11"
+      ],
+      "error_codes": [
+        "SAO.ERR.ORN_MISSING",
+        "SAO.ERR.TONGUE"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.orn.lay_don.01.md",
+      "sha256": "41df07363198016444a37faca9abd8b4a0c3fbb5055e282a490897eeffc5a275",
+      "issues": []
+    },
+    {
+      "id": "sao.posture.setup.01",
+      "version": 1,
+      "ref": "kb://sao.posture.setup.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.sa01"
+      ],
+      "error_codes": [
+        "SAO.ERR.POSTURE",
+        "SAO.ERR.NO_TONE",
+        "SAO.ERR.PITCH_OFF"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.posture.setup.01.md",
+      "sha256": "cfc989b2f2b0634f41e8081cc5458601f0f8d6a70c61a972f592654432e3c9e1",
+      "issues": []
+    },
+    {
+      "id": "sao.review.check1.01",
+      "version": 1,
+      "ref": "kb://sao.review.check1.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.sa06"
+      ],
+      "error_codes": [
+        "SAO.ERR.NO_TONE",
+        "SAO.ERR.PITCH_OFF",
+        "SAO.ERR.ONSET_UNCLEAR"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.review.check1.01.md",
+      "sha256": "fa035e6a5d8d7f0b256ba16159fc752891f06403fedad6003de02fb55a2187a2",
+      "issues": []
+    },
+    {
+      "id": "sao.review.check2.01",
+      "version": 1,
+      "ref": "kb://sao.review.check2.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "easy",
+      "lesson_refs": [
+        "lesson.sa12"
+      ],
+      "error_codes": [
+        "SAO.ERR.NO_TONE",
+        "SAO.ERR.PITCH_OFF",
+        "SAO.ERR.TONGUE",
+        "SAO.ERR.ORN_MISSING",
+        "SAO.ERR.SHORT_NOTE",
+        "SAO.ERR.PHRASE_BREAK",
+        "SAO.ERR.NO_OCT2",
+        "SAO.ERR.OCT_CRACK"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.review.check2.01.md",
+      "sha256": "fe8185c41c337a3c87f45706797bbb8f3a273b70558ddd2ee7bcb2302d42a9a4",
+      "issues": []
+    },
+    {
+      "id": "sao.tone.first_sound.01",
+      "version": 1,
+      "ref": "kb://sao.tone.first_sound.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "beginner",
+      "lesson_refs": [
+        "lesson.sa03"
+      ],
+      "error_codes": [
+        "SAO.ERR.NO_TONE",
+        "SAO.ERR.BREATHY",
+        "SAO.ERR.OCT_CRACK"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.tone.first_sound.01.md",
+      "sha256": "9b50dd16e5c37b6839a68d28baa5bd48969a2f19e84c478b7b0274e6f94b9ef4",
+      "issues": []
+    },
+    {
+      "id": "sao.tone.octave2.01",
+      "version": 1,
+      "ref": "kb://sao.tone.octave2.01@1",
+      "kb_type": "core",
+      "instrument": "sao_truc",
+      "level": "easy",
+      "lesson_refs": [
+        "lesson.sa10"
+      ],
+      "error_codes": [
+        "SAO.ERR.NO_OCT2",
+        "SAO.ERR.OCT_CRACK"
+      ],
+      "status": "draft",
+      "expert_signed": false,
+      "file": "knowledge/kb/sao.tone.octave2.01.md",
+      "sha256": "6995ab3188f8357685452206821719d1fc2f59a10f8f04ff4d0aca800f44ad99",
+      "issues": []
+    }
+  ],
+  "cues": [
+    {
+      "uid": "pno.artic.legato_staccato.01@1#c1",
+      "card_ref": "kb://pno.artic.legato_staccato.01@1",
+      "for": "PNO.ERR.ARTIC",
+      "context": "câu legato có khe giữa hai nốt khác cao độ",
+      "say": "Legato là nối liền: nhấc ngón này đúng lúc ngón kia vừa xuống.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu nối liền rồi bản có khe, so sánh",
+        "gen.loop hai nốt, gen.slow",
+        "ex.five_finger nối liền, chậm",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.artic.legato_staccato.01@1#c2",
+      "card_ref": "kb://pno.artic.legato_staccato.01@1",
+      "for": "PNO.ERR.ARTIC",
+      "context": "nốt đen ghi staccato giữ quá lâu",
+      "say": "Staccato là nảy ngắn: chạm phím rồi nhấc ngay.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 9,
+      "syllables": 9,
+      "slots": [],
+      "do": [
+        "gen.loop",
+        "gen.slow"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu nảy ngắn rồi bản giữ dài, so sánh",
+        "gen.slow, từng nốt một",
+        "ex.five_finger nảy, nhẹ",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.artic.legato_staccato.01@1#c3",
+      "card_ref": "kb://pno.artic.legato_staccato.01@1",
+      "for": "PNO.ERR.SHORT_NOTE",
+      "context": "nốt trắng, nốt tròn ghi tenuto nhấc sớm",
+      "say": "Nốt này cần giữ đủ {{beats}} phách rồi mới nhấc tay nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 12,
+      "syllables": 12,
+      "slots": [
+        "beats"
+      ],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: giữ nốt dài, đếm to các phách đang ngân",
+        "gen.subdivide, gen.loop câu 2",
+        "gen.slow câu 2",
+        "gợi ý nghỉ"
+      ],
+      "note": "Mã proposed PNO.ERR.SHORT_NOTE (02a v1.11) là mã của nốt dài nhả sớm; cột “Dùng ở” ở knowledge/README.md §7.1 (0.6) đã ghi PN05.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.artic.legato_staccato.01@1#c4",
+      "card_ref": "kb://pno.artic.legato_staccato.01@1",
+      "for": "PNO.ERR.DYN_FLAT",
+      "context": null,
+      "say": "Thử câu này nhỏ, rồi lặp lại to hơn. Nghe khác nhau chưa?",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu câu p rồi câu f, so sánh",
+        "gen.loop một ô với thẻ sắc thái (practice_card)",
+        "chơi một nốt p, một nốt f",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.alternate.01@1#c1",
+      "card_ref": "kb://pno.hands.alternate.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "sai nốt trong một ô",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}} nhé. Mình tách riêng ô này.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.tempo_ladder"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại mẫu ô đó, so sánh",
+        "gen.slow, chia nhỏ 1–2 ô",
+        "gen.hands_split: tay đó chơi riêng",
+        "hỏng 5 lượt liên tiếp: gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.alternate.01@1#c2",
+      "card_ref": "kb://pno.hands.alternate.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "nốt đầu của tay đáp sai ngay sau chỗ đổi tay (≥ 2/3 lượt)",
+      "say": "Nốt đầu của tay đáp ở ô {{bar}} là {{expected_note}}. Đặt sẵn tay ở {{anchor_note}} trước nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 17,
+      "syllables": 17,
+      "slots": [
+        "bar",
+        "expected_note",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.slow"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: tay nghỉ đặt sẵn trên thế của mình",
+        "gen.loop chỗ nối, gen.slow",
+        "ex.five_finger tay đó",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.alternate.01@1#c3",
+      "card_ref": "kb://pno.hands.alternate.01@1",
+      "for": "PNO.ERR.RUSH",
+      "context": null,
+      "say": "Đoạn này đang nhanh dần. Để tiếng “tích” dẫn đường nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 11,
+      "syllables": 11,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cùng máy đếm nhịp",
+        "gen.subdivide, hạ tempo",
+        "gen.loop chỗ nối",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.alternate.01@1#c4",
+      "card_ref": "kb://pno.hands.alternate.01@1",
+      "for": "PNO.ERR.DRAG",
+      "context": "chậm dần trong cả câu",
+      "say": "Đoạn này đang chậm dần. Bám theo tiếng “tích” nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 10,
+      "syllables": 10,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cùng máy đếm nhịp",
+        "gen.subdivide",
+        "gen.loop từng ô",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.alternate.01@1#c5",
+      "card_ref": "kb://pno.hands.alternate.01@1",
+      "for": "PNO.ERR.DRAG",
+      "context": "khoảng hở ở chỗ đổi tay lặp lại (≥ 2/3 lượt)",
+      "say": "Chỗ đổi tay đang hụt nhịp, câu chậm dần. Đếm liền, tay kia vào đúng phách nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 17,
+      "syllables": 17,
+      "slots": [],
+      "do": [
+        "gen.loop",
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu chỗ nối cùng máy đếm nhịp",
+        "gen.loop chỗ nối (±1 ô), gen.slow",
+        "tập chỗ nối: vài nốt cuối tay hỏi sang nốt đầu tay đáp, 3 lần đúng liên tiếp",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.g_pos.01@1#c1",
+      "card_ref": "kb://pno.hands.g_pos.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "chơi Fa thay cho Fa♯ (MIDI thấy thấp hơn nửa cung ở nốt hóa biểu ghi thăng, ≥ 2/3 lượt)",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}}: hóa biểu có dấu thăng, phím đen nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.slow"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe so sánh hai nốt ở ô đó",
+        "gen.slow, gen.loop ô có Fa♯",
+        "ex.five_finger trên thế Sol",
+        "hỏng 5 lượt liên tiếp: gợi ý nghỉ (docs/05 §5.4)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.g_pos.01@1#c2",
+      "card_ref": "kb://pno.hands.g_pos.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "sai nốt khác trong một ô",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}} nhé. Mình tách riêng ô này.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.tempo_ladder"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại mẫu ô đó, so sánh",
+        "gen.slow, chia nhỏ 1–2 ô",
+        "ex.five_finger",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.g_pos.01@1#c3",
+      "card_ref": "kb://pno.hands.g_pos.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "cả câu lệch đều một phím (MIDI thấy cùng độ lệch ở ≥ 2/3 lượt)",
+      "say": "Cả câu đang lệch một phím. Kiểm lại thế tay từ {{anchor_note}} nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://pno.rh.c_pos.01@1",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "anchor_note"
+      ],
+      "do": [
+        "ex.five_finger"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu đặt thế Sol từ nốt neo",
+        "ex.five_finger",
+        "gen.loop câu đầu",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.g_pos.01@1#c4",
+      "card_ref": "kb://pno.hands.g_pos.01@1",
+      "for": "PNO.ERR.PECKING",
+      "context": null,
+      "say": "Thử để mỗi ngón ở sẵn trên một phím của thế tay, như lúc mình vừa học.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 17,
+      "syllables": 17,
+      "slots": [],
+      "do": [
+        "ex.five_finger"
+      ],
+      "escalation": [
+        "gợi ý một lần mỗi buổi, không trừ điểm",
+        "làm mẫu năm ngón trên năm phím của thế Sol",
+        "ex.five_finger chậm"
+      ],
+      "note": "Không nói người học đang dùng sai ngón: âm thanh đúng thì không bắt lỗi ngón (D-19).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.together.01@1#c1",
+      "card_ref": "kb://pno.hands.together.01@1",
+      "for": "PNO.ERR.HANDS_ASYNC",
+      "context": "câu chính: qua mic, hoặc khi chưa đo chắc chiều lệch",
+      "say": "Hai tay đang lệch nhau một chút. Cho hai tay chạm phím cùng lúc.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 14,
+      "syllables": 14,
+      "slots": [],
+      "do": [
+        "gen.hands_split"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu chậm: hai tay vào cùng lúc rồi lệch, so sánh",
+        "gen.loop ô có hai tay cùng vào, gen.slow",
+        "gen.hands_split: tay trái riêng với đếm to, rồi ghép",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.together.01@1#c2",
+      "card_ref": "kb://pno.hands.together.01@1",
+      "for": "PNO.ERR.HANDS_ASYNC",
+      "context": "MIDI đo chắc chiều lệch ở ≥ 2/3 lượt: tay trái vào sau",
+      "say": "Tay trái đang vào sau một chút. Cho hai tay chạm phím cùng lúc.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 14,
+      "syllables": 14,
+      "slots": [],
+      "do": [
+        "gen.hands_split"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu chậm, so sánh",
+        "gen.loop ô có hai tay cùng vào, gen.slow",
+        "gen.hands_split: tay trái riêng với đếm to, rồi ghép",
+        "gợi ý nghỉ"
+      ],
+      "note": "Chỉ dùng khi MIDI đo chắc chiều lệch; docs/05 §5.5 dặn không nói tay nào vào trước khi chưa đo chắc.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.together.01@1#c3",
+      "card_ref": "kb://pno.hands.together.01@1",
+      "for": "PNO.ERR.HANDS_ASYNC",
+      "context": "MIDI đo chắc chiều lệch ở ≥ 2/3 lượt: tay trái vào sớm",
+      "say": "Tay trái đang vào sớm một chút. Đếm vào rồi cho hai tay chạm phím cùng lúc.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 17,
+      "syllables": 17,
+      "slots": [],
+      "do": [
+        "gen.hands_split",
+        "gen.slow"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu chậm, so sánh",
+        "gen.loop ô có hai tay cùng vào, gen.slow",
+        "gen.hands_split rồi ghép",
+        "gợi ý nghỉ"
+      ],
+      "note": "Chỉ dùng khi MIDI đo chắc chiều lệch; dùng chữ “vào sớm” cho thống nhất giữa các thẻ.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.together.01@1#c4",
+      "card_ref": "kb://pno.hands.together.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "sai nốt trong một ô",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}} nhé. Mình tách riêng ô này.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.tempo_ladder"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại mẫu ô đó, so sánh",
+        "gen.slow, chia nhỏ 1–2 ô",
+        "gen.hands_split: tay có nốt sai chơi riêng",
+        "hỏng 5 lượt liên tiếp: gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.together.01@1#c5",
+      "card_ref": "kb://pno.hands.together.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "từng tay đúng ở lượt tách tay nhưng sai khi ghép (MIDI)",
+      "say": "Từng tay đã đúng, ghép lại ô {{bar}} còn sai. Mình chậm lại, ghép từng ô nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 17,
+      "syllables": 17,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.slow",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu ghép chậm ô đó",
+        "gen.slow, gen.loop từng ô",
+        "gõ nhịp một tay, chơi tay kia, rồi ghép",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.hands.together.01@1#c6",
+      "card_ref": "kb://pno.hands.together.01@1",
+      "for": "PNO.ERR.SHORT_NOTE",
+      "context": "nốt dài tay trái nhả sớm",
+      "say": "Nốt này cần giữ đủ {{beats}} phách rồi mới nhấc tay nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 12,
+      "syllables": 12,
+      "slots": [
+        "beats"
+      ],
+      "do": [
+        "gen.subdivide",
+        "gen.hands_split"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: giữ nốt dài, đếm to các phách đang ngân",
+        "gen.subdivide: đếm từng phách trong lúc giữ",
+        "gen.hands_split: tay trái riêng, đếm to, rồi ghép ở gen.slow",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.lh.c_pos.01@1#c1",
+      "card_ref": "kb://pno.lh.c_pos.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "sai nốt trong một ô",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}} nhé. Mình tách riêng ô này.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.tempo_ladder"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại mẫu ô đó, so sánh",
+        "gen.slow, chia nhỏ 1–2 ô",
+        "ex.five_finger tay trái",
+        "hỏng 5 lượt liên tiếp: gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.lh.c_pos.01@1#c2",
+      "card_ref": "kb://pno.lh.c_pos.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "cả câu lệch đều một phím (MIDI thấy cùng độ lệch ở ≥ 2/3 lượt)",
+      "say": "Cả câu đang lệch một phím. Kiểm lại thế tay từ {{anchor_note}} nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://pno.rh.c_pos.01@1",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "anchor_note"
+      ],
+      "do": [
+        "ex.five_finger"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu đặt thế từ Đô3",
+        "ex.five_finger tay trái",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.lh.c_pos.01@1#c3",
+      "card_ref": "kb://pno.lh.c_pos.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "cả câu lệch đúng một quãng tám (MIDI thấy cùng tên nốt, lệch 12 nửa cung ở ≥ 2/3 lượt)",
+      "say": "Đúng tên nốt nhưng đang {{direction}} một quãng tám. Đặt lại tay từ {{anchor_note}} nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [
+        "direction",
+        "anchor_note"
+      ],
+      "do": [
+        "ex.five_finger"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: Đô3 là phím Đô kế bên dưới Đô giữa, tìm nhờ nhóm hai phím đen",
+        "ex.five_finger tay trái",
+        "gợi ý nghỉ"
+      ],
+      "note": "{{direction}} chỉ nhận giá trị “cao” hoặc “thấp” do MIDI đo; không nói người học đặt tay sai chỗ (luật 7).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.lh.c_pos.01@1#c4",
+      "card_ref": "kb://pno.lh.c_pos.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "phần đọc nhạc",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}}. Thử đếm từ mốc {{anchor_note}} trên khuông nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.slow",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu ô đó, gọi tên nốt cùng Minh An",
+        "gen.slow, đọc từng nốt",
+        "luyện gọi tên nốt khóa Fa theo máy đếm nhịp",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.lh.c_pos.01@1#c5",
+      "card_ref": "kb://pno.lh.c_pos.01@1",
+      "for": "PNO.ERR.PECKING",
+      "context": null,
+      "say": "Thử để mỗi ngón ở sẵn trên một phím của thế tay, như lúc mình vừa học.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 17,
+      "syllables": 17,
+      "slots": [],
+      "do": [
+        "ex.five_finger"
+      ],
+      "escalation": [
+        "gợi ý một lần mỗi buổi, không trừ điểm",
+        "làm mẫu năm ngón tay trái trên năm phím",
+        "ex.five_finger chậm"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.lh.i_v7.01@1#c1",
+      "card_ref": "kb://pno.lh.i_v7.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "nốt sai nằm trong hợp âm tay trái (MIDI, ≥ 2/3 lượt)",
+      "say": "Ô {{bar}}, hợp âm tay trái cần {{expected_note}}. Mình tách riêng tay trái ô này nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 16,
+      "syllables": 16,
+      "slots": [
+        "bar",
+        "expected_note"
+      ],
+      "do": [
+        "gen.hands_split",
+        "gen.loop",
+        "ex.chord_switch"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe so sánh hợp âm đúng và hợp âm vừa chơi",
+        "gen.hands_split: tay trái riêng, gen.slow",
+        "ex.chord_switch: đổi I ↔ V7 chậm, theo nhịp",
+        "hỏng 5 lượt liên tiếp: gợi ý nghỉ (docs/05 §5.4)"
+      ],
+      "note": "Không nói “ngón chưa dời”: MIDI chỉ thấy cao độ, không thấy ngón (D-19, luật 7).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.lh.i_v7.01@1#c2",
+      "card_ref": "kb://pno.lh.i_v7.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "sai nốt giai điệu tay phải",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}} nhé. Mình tách riêng ô này.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.tempo_ladder"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại mẫu ô đó, so sánh",
+        "gen.hands_split: tay phải riêng, gen.slow",
+        "gen.loop từng ô",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.lh.i_v7.01@1#c3",
+      "card_ref": "kb://pno.lh.i_v7.01@1",
+      "for": "PNO.ERR.HANDS_ASYNC",
+      "context": "mặc định, hoặc khi chưa đo chắc tay nào vào trước",
+      "say": "Hai tay đang lệch nhau một chút. Cho hai tay chạm phím cùng lúc.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 14,
+      "syllables": 14,
+      "slots": [],
+      "do": [
+        "gen.hands_split",
+        "ex.chord_switch"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu hai tay cùng lúc, chậm",
+        "gen.hands_split rồi ghép lại, gen.slow",
+        "ex.chord_switch theo nhịp, rồi gen.loop ô đổi hợp âm",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.lh.i_v7.01@1#c4",
+      "card_ref": "kb://pno.lh.i_v7.01@1",
+      "for": "PNO.ERR.HANDS_ASYNC",
+      "context": "MIDI đo chắc chiều lệch ở ≥ 2/3 lượt: tay trái vào sau",
+      "say": "Tay trái đang vào sau một chút. Cho hai tay chạm phím cùng lúc.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 14,
+      "syllables": 14,
+      "slots": [],
+      "do": [
+        "gen.hands_split",
+        "ex.chord_switch"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu hai tay cùng lúc, chậm",
+        "gen.hands_split rồi ghép lại, gen.slow",
+        "ex.chord_switch theo nhịp, rồi gen.loop ô đổi hợp âm",
+        "gợi ý nghỉ"
+      ],
+      "note": "Biến thể có chiều của câu chuẩn docs/05 §5.5; chỉ dùng khi MIDI đo chắc chiều lệch.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.lh.i_v7.01@1#c5",
+      "card_ref": "kb://pno.lh.i_v7.01@1",
+      "for": "PNO.ERR.HANDS_ASYNC",
+      "context": "MIDI đo chắc chiều lệch ở ≥ 2/3 lượt: tay trái vào sớm",
+      "say": "Tay trái đang vào sớm một chút. Cho hai tay chạm phím cùng lúc.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 14,
+      "syllables": 14,
+      "slots": [],
+      "do": [
+        "gen.hands_split",
+        "ex.chord_switch"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu hai tay cùng lúc, chậm",
+        "gen.hands_split rồi ghép lại, gen.slow",
+        "ex.chord_switch theo nhịp, rồi gen.loop ô đổi hợp âm",
+        "gợi ý nghỉ"
+      ],
+      "note": "Biến thể có chiều của câu chuẩn docs/05 §5.5; chỉ dùng khi MIDI đo chắc chiều lệch.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.posture.setup.01@1#c1",
+      "card_ref": "kb://pno.posture.setup.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "tìm Đô giữa",
+      "say": "{{anchor_note}} là phím trắng ngay bên trái nhóm hai phím đen giữa đàn nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 14,
+      "syllables": 14,
+      "slots": [
+        "anchor_note"
+      ],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc bằng câu này",
+        "làm mẫu: chỉ nhóm hai phím đen rồi phím trắng bên trái",
+        "gen.slow, từng nốt một",
+        "ex.five_finger",
+        "hỏng 5 lượt liên tiếp: gợi ý nghỉ (docs/05 §5.4)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.posture.setup.01@1#c2",
+      "card_ref": "kb://pno.posture.setup.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "chuỗi Đô–Sol",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}} nhé. Mình tách riêng ô này.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.tempo_ladder"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại mẫu, so sánh",
+        "gen.slow",
+        "ex.five_finger",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.posture.setup.01@1#c3",
+      "card_ref": "kb://pno.posture.setup.01@1",
+      "for": "PNO.ERR.PECKING",
+      "context": null,
+      "say": "Thử để mỗi ngón ở sẵn trên một phím của thế tay, như lúc mình vừa học.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 17,
+      "syllables": 17,
+      "slots": [],
+      "do": [
+        "ex.five_finger"
+      ],
+      "escalation": [
+        "gợi ý một lần mỗi buổi, không trừ điểm",
+        "làm mẫu năm ngón trên năm phím",
+        "ex.five_finger chậm"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.posture.setup.01@1#c4",
+      "card_ref": "kb://pno.posture.setup.01@1",
+      "for": "PNO.ERR.POSTURE",
+      "context": null,
+      "say": "Thử buông tay xuôi người, rồi đặt lại lên phím với dáng đó nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://pno.safety.posture.01@1",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 14,
+      "syllables": 14,
+      "slots": [],
+      "do": [
+        "ex.posture_check"
+      ],
+      "escalation": [
+        "chỉ nói khi người học tự đánh dấu chưa đạt một mục, hoặc camera bật với độ tin cậy ≥ ngưỡng ❓",
+        "không khẳng định người học đang ngồi sai khi không có cảm biến (luật 7)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check1.01@1#c1",
+      "card_ref": "kb://pno.review.check1.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "sau bài kiểm tra, phần chơi bài",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}} nhé. Mình ôn riêng ô này rồi kiểm tra lại sau.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5 (đã chỉnh cho kiểm tra lưu giữ)",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 18,
+      "syllables": 18,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.tempo_ladder"
+      ],
+      "escalation": [
+        "nhắc sau khi kiểm tra xong",
+        "nghe lại mẫu ô đó, so sánh",
+        "gen.loop ô yếu, gen.slow",
+        "ôn lại bài gốc (PN03, PN04 hoặc PN05)",
+        "gợi ý nghỉ, kiểm tra lại sau ≥ 24 giờ ❓"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check1.01@1#c2",
+      "card_ref": "kb://pno.review.check1.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "sau bài kiểm tra, phần đọc 4 ô",
+      "say": "Phần đọc, ô {{bar}}, nốt thứ {{k}} là {{expected_note}}. Thử đếm từ mốc {{anchor_note}} nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.slow"
+      ],
+      "escalation": [
+        "nhắc sau khi kiểm tra xong",
+        "đọc lại ô đó cùng Minh An, gọi tên nốt",
+        "gen.slow, từng nốt",
+        "ôn mốc đọc nhạc (kb://pno.rh.c_pos.01@1#k7, kb://pno.lh.c_pos.01@1#k5)",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check1.01@1#c3",
+      "card_ref": "kb://pno.review.check1.01@1",
+      "for": "PNO.ERR.RUSH",
+      "context": "sau bài kiểm tra",
+      "say": "Đoạn này nhanh dần so với tempo đích. Lúc ôn, để tiếng “tích” dẫn đường nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5 (đã chỉnh cho kiểm tra lưu giữ)",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 16,
+      "syllables": 16,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc sau khi kiểm tra xong",
+        "làm mẫu cùng máy đếm nhịp",
+        "gen.subdivide, hạ tempo",
+        "gen.loop từng ô",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check1.01@1#c4",
+      "card_ref": "kb://pno.review.check1.01@1",
+      "for": "PNO.ERR.DRAG",
+      "context": "sau bài kiểm tra",
+      "say": "Đoạn này chậm dần so với tempo đích. Lúc ôn, bám theo tiếng “tích” nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5 (đã chỉnh cho kiểm tra lưu giữ)",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc sau khi kiểm tra xong",
+        "làm mẫu cùng máy đếm nhịp",
+        "gen.subdivide",
+        "gen.loop từng ô",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check1.01@1#c5",
+      "card_ref": "kb://pno.review.check1.01@1",
+      "for": "PNO.ERR.ARTIC",
+      "context": "sau bài kiểm tra, bài PN05",
+      "say": "Ô {{bar}} chưa đúng kiểu bấm. Lúc ôn, nghe lại mẫu câu đó rồi thử chậm nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://pno.artic.legato_staccato.01@1",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 17,
+      "syllables": 17,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.slow"
+      ],
+      "escalation": [
+        "nhắc sau khi kiểm tra xong",
+        "nghe mẫu, so sánh",
+        "gen.loop hai nốt, gen.slow",
+        "ôn lại PN05",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check1.01@1#c6",
+      "card_ref": "kb://pno.review.check1.01@1",
+      "for": "PNO.ERR.SHORT_NOTE",
+      "context": "sau bài kiểm tra, nốt tenuto ở bài PN05",
+      "say": "Nốt này cần giữ đủ {{beats}} phách rồi mới nhấc tay nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 12,
+      "syllables": 12,
+      "slots": [
+        "beats"
+      ],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc sau khi kiểm tra xong",
+        "nghe mẫu câu có nốt tenuto, đếm to các phách đang ngân",
+        "gen.subdivide, gen.loop ô có nốt tenuto",
+        "ôn lại PN05",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check1.01@1#c7",
+      "card_ref": "kb://pno.review.check1.01@1",
+      "for": "PNO.ERR.DYN_FLAT",
+      "context": "sau bài kiểm tra, bài PN05",
+      "say": "Câu nhỏ và câu to đang gần như nhau. Lúc ôn, thử nhỏ rồi to hơn rõ ràng nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://pno.artic.legato_staccato.01@1",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 19,
+      "syllables": 19,
+      "slots": [],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc sau khi kiểm tra xong",
+        "nghe mẫu câu p rồi câu f, so sánh",
+        "gen.loop một ô với thẻ sắc thái (practice_card)",
+        "ôn lại PN05",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check2.01@1#c1",
+      "card_ref": "kb://pno.review.check2.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "nhận xét sau khi chấm xong, không ngắt bài kiểm tra",
+      "say": "Bài kiểm tra xong rồi. Ô {{bar}} là chỗ mình ôn trước nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc sau khi chấm",
+        "nghe lại mẫu ô đó, so sánh",
+        "gen.slow, chia nhỏ 1–2 ô",
+        "gen.hands_split hoặc ex.five_finger",
+        "hỏng 5 lượt liên tiếp: gợi ý nghỉ (docs/05 §5.4)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check2.01@1#c2",
+      "card_ref": "kb://pno.review.check2.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "trong lượt ôn (loop) sau khi chấm",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}} nhé. Mình tách riêng ô này.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.tempo_ladder"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại mẫu ô đó, so sánh",
+        "gen.slow, chia nhỏ 1–2 ô",
+        "gen.hands_split hoặc ex.five_finger",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check2.01@1#c3",
+      "card_ref": "kb://pno.review.check2.01@1",
+      "for": "PNO.ERR.RUSH",
+      "context": "nhận xét sau khi chấm hoặc trong lượt ôn",
+      "say": "Đoạn này đang nhanh dần. Để tiếng “tích” dẫn đường nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 11,
+      "syllables": 11,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cùng máy đếm nhịp",
+        "gen.subdivide, hạ tempo",
+        "gen.loop từng ô",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check2.01@1#c4",
+      "card_ref": "kb://pno.review.check2.01@1",
+      "for": "PNO.ERR.DRAG",
+      "context": "khựng lại sau chỗ vấp (nhận xét sau khi chấm)",
+      "say": "Gặp chỗ vấp, mình cứ đi tiếp theo phách nhé. Sửa để lượt ôn sau.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: vấp rồi đi tiếp theo máy đếm nhịp",
+        "gen.subdivide, hạ tempo",
+        "gen.loop từng câu",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check2.01@1#c5",
+      "card_ref": "kb://pno.review.check2.01@1",
+      "for": "PNO.ERR.DRAG",
+      "context": "chậm dần trong câu (sau khi chấm hoặc trong lượt ôn)",
+      "say": "Đoạn này đang chậm dần. Bám theo tiếng “tích” nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 10,
+      "syllables": 10,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cùng máy đếm nhịp",
+        "gen.subdivide",
+        "gen.loop từng ô",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check2.01@1#c6",
+      "card_ref": "kb://pno.review.check2.01@1",
+      "for": "PNO.ERR.HANDS_ASYNC",
+      "context": "sau khi chấm hoặc trong lượt ôn; câu trung tính, không nói tay nào vào trước",
+      "say": "Hai tay đang lệch nhau một chút. Cho hai tay chạm phím cùng lúc.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 14,
+      "syllables": 14,
+      "slots": [],
+      "do": [
+        "gen.hands_split"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu hai tay cùng lúc, chậm",
+        "gen.hands_split rồi ghép lại, gen.slow",
+        "gen.loop ô lệch; ô đổi hợp âm thì ex.chord_switch",
+        "gợi ý nghỉ"
+      ],
+      "note": "Biến thể có chiều (“tay trái đang vào sau/vào sớm”) chỉ dùng khi MIDI đo chắc chiều lệch, theo kb://pno.lh.i_v7.01@1.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check2.01@1#c7",
+      "card_ref": "kb://pno.review.check2.01@1",
+      "for": "PNO.ERR.REST_SHORT",
+      "context": null,
+      "say": "Ô {{bar}}, dấu lặng đang bị rút ngắn. Đếm thầm cho hết chỗ lặng nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://pno.rhythm.three_four.01@1",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.subdivide",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: nốt dừng gọn, đủ phách lặng, nghe so sánh",
+        "gen.subdivide, hạ tempo",
+        "gen.loop ô có dấu lặng",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.review.check2.01@1#c8",
+      "card_ref": "kb://pno.review.check2.01@1",
+      "for": "PNO.ERR.SHORT_NOTE",
+      "context": "nốt dài nhả sớm, nốt sau vẫn đúng phách (sau khi chấm hoặc trong lượt ôn)",
+      "say": "Nốt này cần giữ đủ {{beats}} phách rồi mới nhấc tay nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 12,
+      "syllables": 12,
+      "slots": [
+        "beats"
+      ],
+      "do": [
+        "gen.subdivide",
+        "gen.hands_split"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: giữ phím hết các phách, đếm thầm, nghe so sánh",
+        "gen.subdivide, hạ tempo",
+        "gen.hands_split: chơi riêng tay có nốt dài, rồi gen.loop ô đó",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rh.c_pos.01@1#c1",
+      "card_ref": "kb://pno.rh.c_pos.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "sai nốt trong một ô",
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}} nhé. Mình tách riêng ô này.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.tempo_ladder"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại mẫu ô đó, so sánh",
+        "gen.slow, chia nhỏ 1–2 ô",
+        "ex.five_finger",
+        "hỏng 5 lượt liên tiếp: gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rh.c_pos.01@1#c2",
+      "card_ref": "kb://pno.rh.c_pos.01@1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "context": "cả câu lệch đều một phím (MIDI thấy cùng độ lệch ở ≥ 2/3 lượt)",
+      "say": "Cả câu đang lệch một phím. Kiểm lại thế tay từ {{anchor_note}} nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [
+        "anchor_note"
+      ],
+      "do": [
+        "ex.five_finger"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu đặt thế từ Đô giữa",
+        "ex.five_finger",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rh.c_pos.01@1#c3",
+      "card_ref": "kb://pno.rh.c_pos.01@1",
+      "for": "PNO.ERR.PECKING",
+      "context": null,
+      "say": "Thử để mỗi ngón ở sẵn trên một phím của thế tay, như lúc mình vừa học.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 17,
+      "syllables": 17,
+      "slots": [],
+      "do": [
+        "ex.five_finger"
+      ],
+      "escalation": [
+        "gợi ý một lần mỗi buổi, không trừ điểm",
+        "làm mẫu",
+        "ex.five_finger chậm"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rhythm.beat_pf.01@1#c1",
+      "card_ref": "kb://pno.rhythm.beat_pf.01@1",
+      "for": "PNO.ERR.RUSH",
+      "context": null,
+      "say": "Đoạn này đang nhanh dần. Để tiếng “tích” dẫn đường nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 11,
+      "syllables": 11,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cùng máy đếm nhịp",
+        "gen.subdivide, hạ tempo",
+        "gen.loop từng ô",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rhythm.beat_pf.01@1#c2",
+      "card_ref": "kb://pno.rhythm.beat_pf.01@1",
+      "for": "PNO.ERR.DRAG",
+      "context": null,
+      "say": "Đoạn này đang chậm dần. Đếm to theo tiếng “tích” nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 11,
+      "syllables": 11,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cùng máy đếm nhịp",
+        "gen.subdivide",
+        "gen.loop từng ô",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rhythm.beat_pf.01@1#c3",
+      "card_ref": "kb://pno.rhythm.beat_pf.01@1",
+      "for": "PNO.ERR.DYN_FLAT",
+      "context": null,
+      "say": "Thử câu này nhỏ, rồi lặp lại to hơn. Nghe khác nhau chưa?",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu p rồi f, so sánh",
+        "gen.loop một ô với thẻ sắc thái (practice_card)",
+        "chơi một nốt p, một nốt f",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rhythm.three_four.01@1#c1",
+      "card_ref": "kb://pno.rhythm.three_four.01@1",
+      "for": "PNO.ERR.RUSH",
+      "context": "nhanh dần trong câu",
+      "say": "Đoạn này đang nhanh dần. Để tiếng “tích” dẫn đường nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 11,
+      "syllables": 11,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cùng máy đếm nhịp ba phách",
+        "gen.subdivide, hạ tempo",
+        "gen.loop từng ô",
+        "hỏng 5 lượt liên tiếp: gợi ý nghỉ (docs/05 §5.4)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rhythm.three_four.01@1#c2",
+      "card_ref": "kb://pno.rhythm.three_four.01@1",
+      "for": "PNO.ERR.RUSH",
+      "context": "ô có nốt trắng chấm dôi bị ngắn (MIDI: onset ô sau đến sớm ở ≥ 2/3 lượt)",
+      "say": "Ô {{bar}} đang bị ngắn. Nốt dài cần đủ {{beats}} phách, đếm thầm cho hết nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 16,
+      "syllables": 16,
+      "slots": [
+        "bar",
+        "beats"
+      ],
+      "do": [
+        "gen.subdivide",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại mẫu ô đó, so sánh",
+        "gen.subdivide, gen.slow",
+        "gen.loop riêng ô đó",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rhythm.three_four.01@1#c3",
+      "card_ref": "kb://pno.rhythm.three_four.01@1",
+      "for": "PNO.ERR.DRAG",
+      "context": "chậm dần trong câu",
+      "say": "Đoạn này đang chậm dần. Bám theo tiếng “tích” nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 10,
+      "syllables": 10,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cùng máy đếm nhịp ba phách",
+        "gen.subdivide",
+        "gen.loop từng ô",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rhythm.three_four.01@1#c4",
+      "card_ref": "kb://pno.rhythm.three_four.01@1",
+      "for": "PNO.ERR.DRAG",
+      "context": "nốt ngay sau dấu lặng vào muộn (MIDI, ≥ 2/3 lượt)",
+      "say": "Sau dấu lặng ở ô {{bar}}, nốt đang vào muộn. Đếm thầm qua chỗ lặng rồi vào đúng phách nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 20,
+      "syllables": 20,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.subdivide"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: đếm thầm qua dấu lặng rồi vào nốt",
+        "gen.subdivide, hạ tempo",
+        "gen.loop ô có dấu lặng",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rhythm.three_four.01@1#c5",
+      "card_ref": "kb://pno.rhythm.three_four.01@1",
+      "for": "PNO.ERR.REST_SHORT",
+      "context": "nốt trước còn vang sang dấu lặng (note-off muộn)",
+      "say": "Ô {{bar}}, nốt trước dấu lặng đang vang sang. Nhấc phím đúng lúc dấu lặng bắt đầu nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 18,
+      "syllables": 18,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.subdivide",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: nốt dừng gọn ở dấu lặng, nghe so sánh",
+        "gen.subdivide: đếm thầm qua dấu lặng, hạ tempo",
+        "gen.loop ô có dấu lặng",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rhythm.three_four.01@1#c6",
+      "card_ref": "kb://pno.rhythm.three_four.01@1",
+      "for": "PNO.ERR.REST_SHORT",
+      "context": "nốt sau vào sớm (note-on sớm hơn lúc dấu lặng kết thúc)",
+      "say": "Ô {{bar}}, nốt sau dấu lặng đang vào sớm. Đếm thầm cho hết chỗ lặng rồi mới chơi nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 19,
+      "syllables": 19,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.subdivide",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: đếm thầm đủ phách lặng rồi mới vào, nghe so sánh",
+        "gen.subdivide, hạ tempo",
+        "gen.loop ô có dấu lặng",
+        "gợi ý nghỉ"
+      ],
+      "note": "Không nói người học “quên đếm”: máy chỉ thấy thời điểm note-on, không thấy người học có đếm hay không (luật 7).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "pno.rhythm.three_four.01@1#c7",
+      "card_ref": "kb://pno.rhythm.three_four.01@1",
+      "for": "PNO.ERR.SHORT_NOTE",
+      "context": "nốt trắng chấm dôi hoặc nốt tay trái giữ bị nhả sớm, nốt sau vẫn đúng phách (MIDI, ≥ 2/3 lượt)",
+      "say": "Nốt này cần giữ đủ {{beats}} phách rồi mới nhấc tay nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables_declared": 12,
+      "syllables": 12,
+      "slots": [
+        "beats"
+      ],
+      "do": [
+        "gen.subdivide",
+        "gen.hands_split"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu: giữ phím hết các phách, đếm thầm, nghe so sánh",
+        "gen.subdivide, hạ tempo",
+        "gen.hands_split: chơi riêng tay có nốt dài, rồi gen.loop ô đó",
+        "gợi ý nghỉ"
+      ],
+      "note": "Máy chỉ thấy thời điểm note-off; không nói lý do người học nhấc tay sớm (luật 7).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.artic.single_tongue.01@1#c1",
+      "card_ref": "kb://sao.artic.single_tongue.01@1",
+      "for": "SAO.ERR.ONSET_UNCLEAR",
+      "context": null,
+      "say": "Đầu nốt chưa rõ. Thử bắt đầu mỗi nốt bằng 'tu' nhẹ nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [],
+      "do": [
+        "gen.slow",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu: đầu nốt rõ và đầu nốt mờ, so sánh",
+        "gen.slow trên một âm ít lỗ",
+        "gen.loop ô có lỗi",
+        "gợi ý nghỉ"
+      ],
+      "note": "Câu chuẩn của docs/05 §5.5 v2.6; bài sửa gen.slow, gen.loop trên một âm ít lỗ.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.artic.single_tongue.01@1#c2",
+      "card_ref": "kb://sao.artic.single_tongue.01@1",
+      "for": "SAO.ERR.ONSET_UNCLEAR",
+      "context": "âm lượng ở đầu nốt dâng chậm (≥ 2/3 lượt)",
+      "say": "Đầu nốt {{expected_note}} ở ô {{bar}} còn mờ. Thử chạm lưỡi nhẹ như nói “tu”, hơi vẫn đều nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 19,
+      "syllables": 19,
+      "slots": [
+        "expected_note",
+        "bar"
+      ],
+      "do": [
+        "gen.slow",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu: đầu nốt rõ và đầu nốt mờ",
+        "gen.slow: đánh lưỡi nốt lặp trên một âm ít lỗ",
+        "gen.loop ô đó ở tempo thấp hơn",
+        "gợi ý nghỉ"
+      ],
+      "note": "Chỉ nói điều nghe được (đầu nốt mờ); không khẳng định lưỡi đặt sai chỗ (luật 7).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.artic.single_tongue.01@1#c3",
+      "card_ref": "kb://sao.artic.single_tongue.01@1",
+      "for": "SAO.ERR.ONSET_UNCLEAR",
+      "context": "hai nốt liền không có chỗ ngắt",
+      "say": "Các nốt ở ô {{bar}} đang dính vào nhau. Mỗi nốt một tiếng “tu” nhẹ nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 16,
+      "syllables": 16,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.slow"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu nốt lặp tách rõ",
+        "gen.slow, tách nốt bằng khoảng lặng rồi rút ngắn dần",
+        "gen.loop ô đó",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.artic.single_tongue.01@1#c4",
+      "card_ref": "kb://sao.artic.single_tongue.01@1",
+      "for": "SAO.ERR.ONSET_UNCLEAR",
+      "context": "chế độ chờ nốt",
+      "say": "Mỗi nốt một tiếng “tu” nhẹ.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": true,
+      "syllables_declared": 6,
+      "syllables": 6,
+      "slots": [],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc ngắn một lần",
+        "lỗi lặp lại: dùng câu cuối lượt của mã này và đi tiếp thang can thiệp (làm mẫu → chia nhỏ, hạ tempo → đổi bài tập → gợi ý nghỉ)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.artic.single_tongue.01@1#c5",
+      "card_ref": "kb://sao.artic.single_tongue.01@1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "context": "lúc hiệu chuẩn, một âm lệch xa các âm còn lại",
+      "say": "Âm {{expected_note}} lệch {{direction}} nhiều hơn các âm khác. Mình đo lại âm này sau khi nghỉ một chút nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 20,
+      "syllables": 20,
+      "slots": [
+        "expected_note",
+        "direction"
+      ],
+      "do": [
+        "ex.long_tone",
+        "gen.descend_check"
+      ],
+      "escalation": [
+        "nhắc",
+        "đo lại khi sáo đã ấm (k8)",
+        "gen.descend_check tìm âm bắt đầu lệch",
+        "nhờ giáo viên đo (docs/05 §2.5)",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.artic.single_tongue.01@1#c6",
+      "card_ref": "kb://sao.artic.single_tongue.01@1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "context": "sau khi đã có bảng bù",
+      "say": "Nốt {{expected_note}} đang {{direction}} so với mẫu. Có thể có lỗ chưa kín: mình đi xuống từng nốt từ {{anchor_note}} để tìm nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 23,
+      "syllables": 23,
+      "slots": [
+        "expected_note",
+        "direction",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.descend_check",
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu, so sánh",
+        "gen.descend_check",
+        "ex.long_tone",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.artic.slur.01@1#c1",
+      "card_ref": "kb://sao.artic.slur.01@1",
+      "for": "SAO.ERR.TONGUE",
+      "context": null,
+      "say": "Chỗ này luyến: chỉ 'tu' ở nốt đầu, đổi nốt bằng ngón.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 12,
+      "syllables": 12,
+      "slots": [],
+      "do": [
+        "ex.slur_build"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu: cùng cụm thổi đánh lưỡi và thổi luyến, so sánh",
+        "gen.slow, luyến 2 nốt trước",
+        "ex.slur_build từ một lên bốn nốt",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.artic.slur.01@1#c2",
+      "card_ref": "kb://sao.artic.slur.01@1",
+      "for": "SAO.ERR.TONGUE",
+      "context": "lỗi nằm ở một ô có cụm luyến (≥ 2/3 lượt)",
+      "say": "Ô {{bar}} là cụm luyến. Cho hơi đi liền, chỉ đổi ngón thôi nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 14,
+      "syllables": 14,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.loop",
+        "ex.slur_build"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cận ngón ô đó",
+        "gen.slow, gen.loop ô đó",
+        "ex.slur_build trên hai nốt của cụm",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.artic.slur.01@1#c3",
+      "card_ref": "kb://sao.artic.slur.01@1",
+      "for": "SAO.ERR.TONGUE",
+      "context": "chế độ chờ nốt",
+      "say": "Liền hơi, chỉ đổi ngón.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": true,
+      "syllables_declared": 5,
+      "syllables": 5,
+      "slots": [],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc ngắn một lần",
+        "lỗi lặp lại: dùng câu cuối lượt của mã này và đi tiếp thang can thiệp (làm mẫu → chia nhỏ, hạ tempo → đổi bài tập → gợi ý nghỉ)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.artic.slur.01@1#c4",
+      "card_ref": "kb://sao.artic.slur.01@1",
+      "for": "SAO.ERR.ONSET_UNCLEAR",
+      "context": "nốt cùng cao độ ngay sau cụm luyến",
+      "say": "Nốt {{expected_note}} ở ô {{bar}} đang dính vào cụm luyến. Đánh lưỡi lại nhẹ ở nốt này nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 18,
+      "syllables": 18,
+      "slots": [
+        "expected_note",
+        "bar"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.slow"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu: luyến xong rồi đánh lưỡi lại",
+        "gen.slow ô đó",
+        "gen.loop ô đó",
+        "gợi ý nghỉ"
+      ],
+      "note": "Mã proposed, định nghĩa ở knowledge/README.md §7.1: nốt bản nhạc ghi đánh lưỡi mà hai nốt liền không có chỗ ngắt.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.breath.no_flute.01@1#c1",
+      "card_ref": "kb://sao.breath.no_flute.01@1",
+      "for": "SAO.ERR.BREATH_UNEVEN",
+      "context": null,
+      "say": "Hơi ra đang chưa đều. Thả lỏng vai, thở ra nhẹ và đều hơn nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "ex.breath_steady"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu: hơi đều và hơi không đều",
+        "rút ngắn lượt (3–4 giây ❓)",
+        "nghỉ theo thẻ kb://sao.safety.breath.01@1"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.breath.no_flute.01@1#c2",
+      "card_ref": "kb://sao.breath.no_flute.01@1",
+      "for": "SAO.ERR.POSTURE",
+      "context": null,
+      "say": "Khi lấy hơi, để vai nằm yên, thả lỏng nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://sao.safety.posture.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 10,
+      "syllables": 10,
+      "slots": [],
+      "do": [
+        "ex.posture_check"
+      ],
+      "escalation": [
+        "chỉ nói khi người học tự đánh dấu chưa đạt, hoặc camera bật với độ tin cậy ≥ ngưỡng ❓",
+        "làm mẫu lấy hơi vai yên"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.breath.phrase.01@1#c1",
+      "card_ref": "kb://sao.breath.phrase.01@1",
+      "for": "SAO.ERR.SHORT_NOTE",
+      "context": null,
+      "say": "Nốt này cần ngân đủ {{beats}} phách. Lấy hơi vừa đủ ở dấu lấy hơi trước câu, vai thả lỏng.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 20,
+      "syllables": 20,
+      "slots": [
+        "beats"
+      ],
+      "do": [
+        "gen.loop",
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu nốt đó, so sánh độ dài",
+        "gen.loop câu chứa nốt, hiện điểm lấy hơi; chia câu ngắn hơn nếu cần, không hạ tempo",
+        "ex.long_tone ngắn, nghỉ giữa các lượt",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": "Không dùng gen.slow cho lỗi này: hạ tempo làm nốt ngân dài thêm tính bằng giây (docs/05 §5.4 mục 9).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.breath.phrase.01@1#c2",
+      "card_ref": "kb://sao.breath.phrase.01@1",
+      "for": "SAO.ERR.PHRASE_BREAK",
+      "context": null,
+      "say": "Câu này bị ngắt giữa chừng. Giữ liền tới dấu lấy hơi ở ô {{bar}} nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 16,
+      "syllables": 16,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu cả câu, chú ý chỗ lấy hơi",
+        "gen.loop cả câu, hiện dấu lấy hơi",
+        "lặp lại thì chia câu ngắn hơn, không hạ tempo",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": "Mic không phân biệt lấy hơi với dừng (luật 7), nên câu chỉ nói câu bị ngắt, không nói người học đã lấy hơi.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.holes.descend.01@1#c1",
+      "card_ref": "kb://sao.holes.descend.01@1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "context": null,
+      "say": "Nốt {{expected_note}} đang {{direction}} so với mẫu. Có thể có lỗ chưa kín: mình đi xuống từng nốt từ {{anchor_note}} để tìm nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 23,
+      "syllables": 23,
+      "slots": [
+        "expected_note",
+        "direction",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.descend_check",
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu, so sánh",
+        "gen.descend_check, mỗi bước ngân dài hơn",
+        "ex.long_tone trên âm trên đã ổn",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.holes.descend.01@1#c2",
+      "card_ref": "kb://sao.holes.descend.01@1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "context": "âm ngay trên trong chuỗi đúng, chỉ âm vừa đi xuống lệch ở ≥ 2/3 lượt",
+      "say": "Âm {{expected_note}} đang {{direction}} so với mẫu. Quay lại âm {{anchor_note}}, rồi đi xuống chậm, ngón đặt phẳng, nhẹ nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 20,
+      "syllables": 20,
+      "slots": [
+        "expected_note",
+        "direction",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.descend_check",
+        "ex.hole_change"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cận ngón (cam.sao_truc.fingers_side), nghe so sánh",
+        "gen.slow, tách riêng hai âm",
+        "ex.hole_change giữa hai âm",
+        "gợi ý nghỉ"
+      ],
+      "note": "Câu là gợi ý cách làm cho cả bước, không khẳng định ngón nào chưa kín (luật 7).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.holes.descend.01@1#c3",
+      "card_ref": "kb://sao.holes.descend.01@1",
+      "for": "SAO.ERR.NO_TONE",
+      "context": null,
+      "say": "Âm này chưa ra tiếng. Quay lại âm {{anchor_note}} cho tròn tiếng, rồi đi xuống chậm hơn nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 18,
+      "syllables": 18,
+      "slots": [
+        "anchor_note"
+      ],
+      "do": [
+        "gen.descend_check",
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại âm mẫu",
+        "gen.slow, ngân âm trên lâu hơn trước khi đi xuống",
+        "sau 4–5 lần chưa ra tiếng: gợi ý nghỉ (kb://sao.safety.breath.01@1)",
+        "lỗi kéo dài nhiều buổi: kiểm lại sáo (kb://sao.posture.setup.01@1#k4)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.holes.full_scale.01@1#c1",
+      "card_ref": "kb://sao.holes.full_scale.01@1",
+      "for": "SAO.ERR.NO_TONE",
+      "context": null,
+      "say": "Âm trầm này chưa ra tiếng. Thử đi xuống từng nốt từ {{anchor_note}}, hơi chậm và ấm hơn nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 19,
+      "syllables": 19,
+      "slots": [
+        "anchor_note"
+      ],
+      "do": [
+        "gen.descend_check",
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại âm mẫu, so sánh",
+        "gen.descend_check, mỗi bước ngân lâu hơn",
+        "ex.long_tone trên âm ngay trên",
+        "sau 4–5 lần chưa ra tiếng: gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.holes.full_scale.01@1#c2",
+      "card_ref": "kb://sao.holes.full_scale.01@1",
+      "for": "SAO.ERR.OCT_CRACK",
+      "context": null,
+      "say": "Tiếng vừa vọt lên quãng tám. Ở âm trầm, thả lỏng, hơi ấm và chậm.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu, so sánh",
+        "ex.long_tone ở âm trầm với hơi nhẹ hơn",
+        "gen.descend_check từ âm trên",
+        "gợi ý nghỉ"
+      ],
+      "note": "Trước SA10 chỉ dùng ex.long_tone ở âm trầm, không dùng ex.octave_slur (luật L1; docs/05 §5.5).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.holes.full_scale.01@1#c3",
+      "card_ref": "kb://sao.holes.full_scale.01@1",
+      "for": "SAO.ERR.OCT_CRACK",
+      "context": "chế độ chờ nốt ở âm bịt kín",
+      "say": "Hơi chậm, ấm thôi.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": true,
+      "syllables_declared": 4,
+      "syllables": 4,
+      "slots": [],
+      "do": [
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc ngắn một lần",
+        "lỗi lặp lại: dùng câu cuối lượt của mã này và đi tiếp thang can thiệp (làm mẫu → chia nhỏ, hạ tempo → đổi bài tập → gợi ý nghỉ)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.holes.full_scale.01@1#c4",
+      "card_ref": "kb://sao.holes.full_scale.01@1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "context": null,
+      "say": "Nốt {{expected_note}} đang {{direction}} so với mẫu. Có thể có lỗ chưa kín: mình đi xuống từng nốt từ {{anchor_note}} để tìm nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 23,
+      "syllables": 23,
+      "slots": [
+        "expected_note",
+        "direction",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.descend_check",
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu, so sánh",
+        "gen.descend_check",
+        "ex.long_tone",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.holes.full_scale.01@1#c5",
+      "card_ref": "kb://sao.holes.full_scale.01@1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "context": "lệch ở một bậc của thang âm (≥ 2/3 lượt)",
+      "say": "Trong thang âm, nốt {{expected_note}} đang {{direction}}. Mình tách riêng hai nốt quanh chỗ này nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 16,
+      "syllables": 16,
+      "slots": [
+        "expected_note",
+        "direction"
+      ],
+      "do": [
+        "gen.loop",
+        "ex.hole_change"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu hai nốt đó, so sánh",
+        "gen.slow, tách riêng hai nốt",
+        "ex.hole_change giữa hai nốt",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.orn.lay_don.01@1#c1",
+      "card_ref": "kb://sao.orn.lay_don.01@1",
+      "for": "SAO.ERR.ORN_MISSING",
+      "context": "thiếu láy ở vị trí đánh dấu",
+      "say": "Chỗ này có láy. Mình nghe lại bản của nghệ sĩ rồi thử chậm nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "gen.slow"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại bản nghệ sĩ ở ô đó, so sánh",
+        "gen.slow ở ô có láy",
+        "gen.loop: nốt chính trước, rồi thêm láy",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.orn.lay_don.01@1#c2",
+      "card_ref": "kb://sao.orn.lay_don.01@1",
+      "for": "SAO.ERR.ORN_MISSING",
+      "context": "âm láy dài như một nốt riêng (≥ 2/3 lượt)",
+      "say": "Láy ở ô {{bar}} đang dài như một nốt riêng. Chớp ngón gọn hơn rồi về nốt chính nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 19,
+      "syllables": 19,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.slow",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu láy quay chậm, so sánh",
+        "gen.slow ở ô đó",
+        "gen.loop riêng nốt có láy",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": "Câu không nói ngón nào sai: mic chỉ thấy âm láy kéo dài (luật 7).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.orn.lay_don.01@1#c3",
+      "card_ref": "kb://sao.orn.lay_don.01@1",
+      "for": "SAO.ERR.TONGUE",
+      "context": null,
+      "say": "Láy làm bằng ngón, không cần “tu” lại. Cho hơi chảy liền qua chỗ láy nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5 (câu đã chỉnh cho láy)",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 16,
+      "syllables": 16,
+      "slots": [],
+      "do": [
+        "ex.slur_build"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu láy trong luồng hơi liền, so sánh",
+        "ex.slur_build trên hai nốt của láy",
+        "gen.slow ở ô đó",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.posture.setup.01@1#c1",
+      "card_ref": "kb://sao.posture.setup.01@1",
+      "for": "SAO.ERR.POSTURE",
+      "context": null,
+      "say": "Vai thả xuống, khuỷu tay hơi mở, ngón nằm phẳng trên lỗ nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://sao.safety.posture.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 13,
+      "syllables": 13,
+      "slots": [],
+      "do": [
+        "ex.posture_check"
+      ],
+      "escalation": [
+        "chỉ nói khi người học tự đánh dấu chưa đạt, hoặc camera bật với độ tin cậy ≥ ngưỡng ❓",
+        "làm mẫu cầm sáo",
+        "không khẳng định khi không có cảm biến (luật 7)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.posture.setup.01@1#c2",
+      "card_ref": "kb://sao.posture.setup.01@1",
+      "for": "SAO.ERR.NO_TONE",
+      "context": null,
+      "say": "Chưa ra tiếng là bình thường ở những lần đầu. Xoay sáo một chút, môi thả lỏng, thử lại.",
+      "say_source": "cue_ref:kb://sao.tone.first_sound.01@1",
+      "cue_ref": "kb://sao.tone.first_sound.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": null,
+      "syllables": 19,
+      "slots": [],
+      "do": [
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "dùng câu chính ở thẻ SA03",
+        "sau 4–5 lần chưa ra tiếng: gợi ý nghỉ (kb://sao.safety.breath.01@1)",
+        "lỗi kéo dài nhiều buổi: gợi ý kiểm lại sáo theo k4 của thẻ này"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.posture.setup.01@1#c3",
+      "card_ref": "kb://sao.posture.setup.01@1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "context": null,
+      "say": "Nốt {{expected_note}} đang {{direction}} so với mẫu. Có thể có lỗ chưa kín: mình đi xuống từng nốt từ {{anchor_note}} để tìm nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 23,
+      "syllables": 23,
+      "slots": [
+        "expected_note",
+        "direction",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.descend_check",
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu, so sánh",
+        "gen.descend_check",
+        "kiểm lại sáo theo k4",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check1.01@1#c1",
+      "card_ref": "kb://sao.review.check1.01@1",
+      "for": "SAO.ERR.NO_TONE",
+      "context": null,
+      "say": "Phần ngân hôm nay chưa ổn định. Mình ôn lại bài tiếng sáo, rồi kiểm tra lại sau một ngày nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://sao.tone.first_sound.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 21,
+      "syllables": 21,
+      "slots": [],
+      "do": [
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nói sau khi xong bài, không nói giữa chừng",
+        "nghe lại âm mẫu, so sánh",
+        "chia nhỏ: lượt ngân ngắn, có nghỉ (gen.loop)",
+        "đổi bài tập: ex.long_tone trên âm ít lỗ",
+        "gợi ý nghỉ, làm lại sau ≥ 24 giờ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check1.01@1#c2",
+      "card_ref": "kb://sao.review.check1.01@1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "context": null,
+      "say": "Âm {{expected_note}} đang {{direction}} so với mẫu. Mình ôn chuỗi đi xuống từ {{anchor_note}} trước khi kiểm tra lại nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://sao.holes.descend.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 20,
+      "syllables": 20,
+      "slots": [
+        "expected_note",
+        "direction",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.descend_check",
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nói sau khi xong bài",
+        "nghe mẫu, so sánh",
+        "gen.descend_check, gen.slow",
+        "ex.long_tone trên âm trên đã ổn",
+        "gợi ý nghỉ, làm lại sau ≥ 24 giờ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check1.01@1#c3",
+      "card_ref": "kb://sao.review.check1.01@1",
+      "for": "SAO.ERR.ONSET_UNCLEAR",
+      "context": null,
+      "say": "Một số đầu nốt còn mờ. Mình ôn bài đánh lưỡi chậm vài lượt, rồi hẵng kiểm tra lại nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://sao.artic.single_tongue.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 20,
+      "syllables": 20,
+      "slots": [],
+      "do": [
+        "gen.slow",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nói sau khi xong bài",
+        "nghe mẫu: đầu nốt rõ và đầu nốt mờ",
+        "gen.slow trên nốt lặp",
+        "gen.loop ô có nốt lặp",
+        "gợi ý nghỉ, làm lại sau ≥ 24 giờ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check2.01@1#c1",
+      "card_ref": "kb://sao.review.check2.01@1",
+      "for": "SAO.ERR.NO_TONE",
+      "context": null,
+      "say": "Ô {{bar}} có chỗ chưa ra tiếng rõ. Bạn có thể ôn lại nốt {{expected_note}} rồi thử lại nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://sao.tone.first_sound.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 19,
+      "syllables": 19,
+      "slots": [
+        "bar",
+        "expected_note"
+      ],
+      "do": [
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nêu ô sau khi xong bài, không ngắt bài kiểm tra",
+        "nghe mẫu nốt đó",
+        "gợi ý ôn trong vòng luyện",
+        "ex.long_tone ngắn, có nghỉ",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check2.01@1#c2",
+      "card_ref": "kb://sao.review.check2.01@1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "context": "câu dân ca, chế độ dân ca",
+      "say": "Nốt {{expected_note}} ở ô {{bar}} đang {{direction}} so với bản nghệ sĩ. Mình nghe lại câu đó nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 18,
+      "syllables": 18,
+      "slots": [
+        "expected_note",
+        "bar",
+        "direction"
+      ],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nêu sau khi xong bài",
+        "nghe lại bản nghệ sĩ ở câu đó, so sánh",
+        "gen.loop câu đó",
+        "gợi ý ôn bài có nốt đó",
+        "gợi ý nghỉ"
+      ],
+      "note": "Chỉ báo khi lệch ngoài dung sai của dị bản; không nói “sai” với lệch vi cung đúng lối (docs/05 §5.3).",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check2.01@1#c3",
+      "card_ref": "kb://sao.review.check2.01@1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "context": "phần lưu giữ, so với FluteChart đã bù",
+      "say": "Nốt {{expected_note}} đang {{direction}} so với mẫu. Có thể có lỗ chưa kín: mình đi xuống từng nốt từ {{anchor_note}} để tìm nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 23,
+      "syllables": 23,
+      "slots": [
+        "expected_note",
+        "direction",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.descend_check",
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nêu sau khi xong bài",
+        "nghe mẫu, so sánh",
+        "gen.descend_check",
+        "ex.long_tone",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check2.01@1#c4",
+      "card_ref": "kb://sao.review.check2.01@1",
+      "for": "SAO.ERR.TONGUE",
+      "context": null,
+      "say": "Chỗ này luyến: chỉ “tu” ở nốt đầu, đổi nốt bằng ngón.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 12,
+      "syllables": 12,
+      "slots": [],
+      "do": [
+        "ex.slur_build"
+      ],
+      "escalation": [
+        "nêu sau khi xong bài",
+        "nghe mẫu cụm luyến",
+        "ex.slur_build",
+        "gợi ý ôn SA08 trong vòng luyện",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check2.01@1#c5",
+      "card_ref": "kb://sao.review.check2.01@1",
+      "for": "SAO.ERR.ORN_MISSING",
+      "context": null,
+      "say": "Chỗ này có láy. Mình nghe lại bản của nghệ sĩ rồi thử chậm nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "gen.slow"
+      ],
+      "escalation": [
+        "nêu sau khi xong bài",
+        "nghe lại bản nghệ sĩ ở ô đó",
+        "gen.slow ở ô có láy",
+        "gợi ý ôn SA11 trong vòng luyện",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check2.01@1#c6",
+      "card_ref": "kb://sao.review.check2.01@1",
+      "for": "SAO.ERR.SHORT_NOTE",
+      "context": null,
+      "say": "Nốt này cần ngân đủ {{beats}} phách. Lấy hơi vừa đủ ở dấu lấy hơi trước câu, vai thả lỏng.",
+      "say_source": "card",
+      "cue_ref": "kb://sao.breath.phrase.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 20,
+      "syllables": 20,
+      "slots": [
+        "beats"
+      ],
+      "do": [
+        "gen.loop",
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nêu sau khi xong bài",
+        "nghe mẫu nốt đó",
+        "gen.loop câu chứa nốt, không hạ tempo",
+        "ex.long_tone ngắn, có nghỉ",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check2.01@1#c7",
+      "card_ref": "kb://sao.review.check2.01@1",
+      "for": "SAO.ERR.PHRASE_BREAK",
+      "context": null,
+      "say": "Câu này bị ngắt giữa chừng. Giữ liền tới dấu lấy hơi ở ô {{bar}} nhé.",
+      "say_source": "card",
+      "cue_ref": "kb://sao.breath.phrase.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 16,
+      "syllables": 16,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.loop"
+      ],
+      "escalation": [
+        "nêu sau khi xong bài",
+        "nghe mẫu cả câu, chú ý chỗ lấy hơi",
+        "gen.loop cả câu, không hạ tempo",
+        "lặp lại thì chia câu ngắn hơn",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": "Mic không phân biệt lấy hơi với dừng (luật 7), nên câu chỉ nói câu bị ngắt.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check2.01@1#c8",
+      "card_ref": "kb://sao.review.check2.01@1",
+      "for": "SAO.ERR.NO_OCT2",
+      "context": null,
+      "say": "Muốn lên cao, tăng tốc hơi và thu hẹp khe môi, đừng chỉ thổi to.",
+      "say_source": "card",
+      "cue_ref": "kb://sao.tone.octave2.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "ex.octave_slur"
+      ],
+      "escalation": [
+        "nêu sau khi xong bài",
+        "nghe mẫu luyến quãng tám",
+        "ex.octave_slur trên một thế bấm",
+        "gợi ý ôn SA10 trong vòng luyện",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.review.check2.01@1#c9",
+      "card_ref": "kb://sao.review.check2.01@1",
+      "for": "SAO.ERR.OCT_CRACK",
+      "context": null,
+      "say": "Tiếng vừa vọt lên quãng tám. Ở âm trầm, thả lỏng, hơi ấm và chậm.",
+      "say_source": "card",
+      "cue_ref": "kb://sao.tone.octave2.01@1",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "ex.long_tone",
+        "ex.octave_slur"
+      ],
+      "escalation": [
+        "nêu sau khi xong bài",
+        "nghe mẫu âm trầm",
+        "ex.long_tone ở âm trầm, hơi nhẹ hơn",
+        "ex.octave_slur có kiểm soát",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.tone.first_sound.01@1#c1",
+      "card_ref": "kb://sao.tone.first_sound.01@1",
+      "for": "SAO.ERR.NO_TONE",
+      "context": null,
+      "say": "Chưa ra tiếng là bình thường ở những lần đầu. Xoay sáo một chút, môi thả lỏng, thử lại.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 19,
+      "syllables": 19,
+      "slots": [],
+      "do": [
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe lại âm mẫu",
+        "nghỉ ngắn, thở bình thường",
+        "sau 4–5 lần: gợi ý nghỉ (kb://sao.safety.breath.01@1)",
+        "lỗi kéo dài nhiều buổi: kiểm lại sáo (kb://sao.posture.setup.01@1#k4)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.tone.first_sound.01@1#c2",
+      "card_ref": "kb://sao.tone.first_sound.01@1",
+      "for": "SAO.ERR.BREATHY",
+      "context": null,
+      "say": "Hơi đang nhiều hơn tiếng. Khép khe môi nhỏ lại, hướng hơi vào mép lỗ thổi.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 16,
+      "syllables": 16,
+      "slots": [],
+      "do": [
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "làm mẫu cận khẩu hình",
+        "ex.long_tone ngắn",
+        "gợi ý nghỉ"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.tone.first_sound.01@1#c3",
+      "card_ref": "kb://sao.tone.first_sound.01@1",
+      "for": "SAO.ERR.OCT_CRACK",
+      "context": null,
+      "say": "Tiếng vừa vọt lên quãng tám. Thả lỏng, hơi chậm và ấm hơn nhé.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5 (câu đã chỉnh cho âm ít lỗ)",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 14,
+      "syllables": 14,
+      "slots": [],
+      "do": [
+        "ex.long_tone"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu, so sánh",
+        "ex.long_tone với hơi nhẹ hơn",
+        "gợi ý nghỉ"
+      ],
+      "note": "Không dùng ex.octave_slur ở SA03: luật L1 chỉ mở quãng tám thứ hai từ SA10 (docs/05 §2.2); docs/05 §5.5 (từ v2.3) cũng ghi trước SA10 dùng ex.long_tone.",
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.tone.octave2.01@1#c1",
+      "card_ref": "kb://sao.tone.octave2.01@1",
+      "for": "SAO.ERR.NO_OCT2",
+      "context": null,
+      "say": "Muốn lên cao, tăng tốc hơi và thu hẹp khe môi, đừng chỉ thổi to.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "ex.octave_slur"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu luyến quãng tám, so sánh",
+        "ex.octave_slur chậm trên một thế bấm",
+        "gen.loop nốt đó cùng nốt quãng dưới đứng trước",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.tone.octave2.01@1#c2",
+      "card_ref": "kb://sao.tone.octave2.01@1",
+      "for": "SAO.ERR.NO_OCT2",
+      "context": "chỉ ra vị trí khi lỗi lặp ở cùng một nốt (≥ 2/3 lượt)",
+      "say": "Nốt {{expected_note}} ở ô {{bar}} cần lên quãng trên. Tăng tốc hơi, khe môi hẹp lại nhé.",
+      "say_source": "card",
+      "cue_ref": null,
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 17,
+      "syllables": 17,
+      "slots": [
+        "expected_note",
+        "bar"
+      ],
+      "do": [
+        "ex.octave_slur",
+        "gen.loop"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu nốt đó",
+        "ex.octave_slur trên thế bấm của nốt đó",
+        "gen.loop ô đó",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": null,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "uid": "sao.tone.octave2.01@1#c3",
+      "card_ref": "kb://sao.tone.octave2.01@1",
+      "for": "SAO.ERR.OCT_CRACK",
+      "context": null,
+      "say": "Tiếng vừa vọt lên quãng tám. Ở âm trầm, thả lỏng, hơi ấm và chậm.",
+      "say_source": "card",
+      "cue_ref": "docs/05 §5.5",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables_declared": 15,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "ex.long_tone",
+        "ex.octave_slur"
+      ],
+      "escalation": [
+        "nhắc",
+        "nghe mẫu âm trầm, so sánh",
+        "ex.long_tone ở âm trầm với hơi nhẹ hơn",
+        "ex.octave_slur: lên rồi về quãng dưới có kiểm soát",
+        "gợi ý nghỉ (kb://sao.safety.breath.01@1)"
+      ],
+      "note": "Từ SA10 được dùng ex.octave_slur (docs/05 §5.5; luật L1).",
+      "issues": [],
+      "warnings": []
+    }
+  ],
+  "spec_cues": [
+    {
+      "uid": "docs05#PNO.ERR.WRONG_NOTE#1",
+      "for": "PNO.ERR.WRONG_NOTE",
+      "status": "canonical",
+      "context": null,
+      "say": "Ô {{bar}}, nốt thứ {{k}} là {{expected_note}} nhé. Mình tách riêng ô này.",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables": 13,
+      "slots": [
+        "bar",
+        "k",
+        "expected_note"
+      ],
+      "do": [
+        "gen.loop",
+        "gen.tempo_ladder"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#PNO.ERR.RUSH#1",
+      "for": "PNO.ERR.RUSH",
+      "status": "canonical",
+      "context": null,
+      "say": "Đoạn này đang nhanh dần. Để tiếng 'tích' dẫn đường nhé.",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables": 11,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#PNO.ERR.DRAG#1",
+      "for": "PNO.ERR.DRAG",
+      "status": "canonical",
+      "context": null,
+      "say": "Đoạn này đang chậm dần. Bám theo tiếng 'tích' nhé.",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables": 10,
+      "slots": [],
+      "do": [
+        "gen.subdivide"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#PNO.ERR.HANDS_ASYNC#1",
+      "for": "PNO.ERR.HANDS_ASYNC",
+      "status": "canonical",
+      "context": null,
+      "say": "Hai tay đang lệch nhau một chút. Cho hai tay chạm phím cùng lúc.",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables": 14,
+      "slots": [],
+      "do": [
+        "gen.hands_split"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#PNO.ERR.ARTIC#1",
+      "for": "PNO.ERR.ARTIC",
+      "status": "canonical",
+      "context": "legato",
+      "say": "Legato là nối liền: nhấc ngón này đúng lúc ngón kia vừa xuống.",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables": 13,
+      "slots": [],
+      "do": [
+        "gen.loop"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#PNO.ERR.ARTIC#2",
+      "for": "PNO.ERR.ARTIC",
+      "status": "canonical",
+      "context": "staccato",
+      "say": "Staccato là nảy ngắn: chạm phím rồi nhấc ngay.",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables": 9,
+      "slots": [],
+      "do": [
+        "gen.loop"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#PNO.ERR.DYN_FLAT#1",
+      "for": "PNO.ERR.DYN_FLAT",
+      "status": "canonical",
+      "context": null,
+      "say": "Thử câu này nhỏ, rồi lặp lại to hơn. Nghe khác nhau chưa?",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables": 13,
+      "slots": [],
+      "do": [
+        "gen.loop"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#PNO.ERR.PECKING#1",
+      "for": "PNO.ERR.PECKING",
+      "status": "canonical",
+      "context": null,
+      "say": "Thử để mỗi ngón ở sẵn trên một phím của thế tay, như lúc mình vừa học.",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables": 17,
+      "slots": [],
+      "do": [
+        "ex.five_finger"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#PNO.ERR.REST_SHORT#1",
+      "for": "PNO.ERR.REST_SHORT",
+      "status": "proposed",
+      "context": null,
+      "say": "Ô {{bar}} có dấu lặng. Nhấc tay đúng lúc, đếm thầm qua chỗ lặng nhé.",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables": 15,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.subdivide",
+        "gen.loop"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#PNO.ERR.SHORT_NOTE#1",
+      "for": "PNO.ERR.SHORT_NOTE",
+      "status": "proposed",
+      "context": null,
+      "say": "Nốt này cần giữ đủ {{beats}} phách rồi mới nhấc tay nhé.",
+      "speaker": "idol.minh_an",
+      "during_play": false,
+      "syllables": 12,
+      "slots": [
+        "beats"
+      ],
+      "do": [
+        "gen.subdivide"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#SAO.ERR.PITCH_OFF#1",
+      "for": "SAO.ERR.PITCH_OFF",
+      "status": "canonical",
+      "context": null,
+      "say": "Nốt {{expected_note}} đang {{direction}} so với mẫu. Có thể có lỗ chưa kín: mình đi xuống từng nốt từ {{anchor_note}} để tìm nhé.",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables": 23,
+      "slots": [
+        "expected_note",
+        "direction",
+        "anchor_note"
+      ],
+      "do": [
+        "gen.descend_check",
+        "ex.long_tone"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#SAO.ERR.NO_TONE#1",
+      "for": "SAO.ERR.NO_TONE",
+      "status": "canonical",
+      "context": null,
+      "say": "Chưa ra tiếng là bình thường ở những lần đầu. Xoay sáo một chút, môi thả lỏng, thử lại.",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables": 19,
+      "slots": [],
+      "do": [
+        "ex.long_tone"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#SAO.ERR.BREATHY#1",
+      "for": "SAO.ERR.BREATHY",
+      "status": "canonical",
+      "context": null,
+      "say": "Hơi đang nhiều hơn tiếng. Khép khe môi nhỏ lại, hướng hơi vào mép lỗ thổi.",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables": 16,
+      "slots": [],
+      "do": [
+        "ex.long_tone"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#SAO.ERR.OCT_CRACK#1",
+      "for": "SAO.ERR.OCT_CRACK",
+      "status": "canonical",
+      "context": null,
+      "say": "Tiếng vừa vọt lên quãng tám. Ở âm trầm, thả lỏng, hơi ấm và chậm.",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "ex.long_tone",
+        "ex.octave_slur"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#SAO.ERR.NO_OCT2#1",
+      "for": "SAO.ERR.NO_OCT2",
+      "status": "canonical",
+      "context": null,
+      "say": "Muốn lên cao, tăng tốc hơi và thu hẹp khe môi, đừng chỉ thổi to.",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "ex.octave_slur"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#SAO.ERR.TONGUE#1",
+      "for": "SAO.ERR.TONGUE",
+      "status": "canonical",
+      "context": null,
+      "say": "Chỗ này luyến: chỉ 'tu' ở nốt đầu, đổi nốt bằng ngón.",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables": 12,
+      "slots": [],
+      "do": [
+        "ex.slur_build"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#SAO.ERR.SHORT_NOTE#1",
+      "for": "SAO.ERR.SHORT_NOTE",
+      "status": "canonical",
+      "context": null,
+      "say": "Nốt này cần ngân đủ {{beats}} phách. Lấy hơi vừa đủ ở dấu lấy hơi trước câu, vai thả lỏng.",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables": 20,
+      "slots": [
+        "beats"
+      ],
+      "do": [
+        "gen.loop"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#SAO.ERR.ONSET_UNCLEAR#1",
+      "for": "SAO.ERR.ONSET_UNCLEAR",
+      "status": "proposed",
+      "context": null,
+      "say": "Đầu nốt chưa rõ. Thử bắt đầu mỗi nốt bằng 'tu' nhẹ nhé.",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables": 13,
+      "slots": [],
+      "do": [
+        "gen.slow",
+        "gen.loop"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#SAO.ERR.PHRASE_BREAK#1",
+      "for": "SAO.ERR.PHRASE_BREAK",
+      "status": "proposed",
+      "context": null,
+      "say": "Câu này bị ngắt giữa chừng. Giữ liền tới dấu lấy hơi ở ô {{bar}} nhé.",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables": 16,
+      "slots": [
+        "bar"
+      ],
+      "do": [
+        "gen.loop"
+      ],
+      "issues": []
+    },
+    {
+      "uid": "docs05#SAO.ERR.ORN_MISSING#1",
+      "for": "SAO.ERR.ORN_MISSING",
+      "status": "canonical",
+      "context": null,
+      "say": "Chỗ này có láy. Mình nghe lại bản của nghệ sĩ rồi thử chậm nhé.",
+      "speaker": "idol.gia_phong",
+      "during_play": false,
+      "syllables": 15,
+      "slots": [],
+      "do": [
+        "gen.slow"
+      ],
+      "issues": []
+    }
+  ],
+  "forbidden_patterns": [
+    {
+      "id": "absolute_safety",
+      "regex": "tuyệt đối",
+      "group": "hua_an_toan"
+    },
+    {
+      "id": "sure_safe",
+      "regex": "chắc chắn an toàn",
+      "group": "hua_an_toan"
+    },
+    {
+      "id": "never_hurt",
+      "regex": "không bao giờ (bị )?(đau|chấn thương)",
+      "group": "hua_an_toan"
+    },
+    {
+      "id": "diagnose",
+      "regex": "chẩn đoán",
+      "group": "chan_doan"
+    },
+    {
+      "id": "treat",
+      "regex": "điều trị",
+      "group": "dieu_tri"
+    },
+    {
+      "id": "cure",
+      "regex": "chữa",
+      "group": "dieu_tri"
+    },
+    {
+      "id": "medicine",
+      "regex": "thuốc",
+      "group": "dieu_tri"
+    },
+    {
+      "id": "hot_compress",
+      "regex": "chườm",
+      "group": "dieu_tri"
+    },
+    {
+      "id": "massage",
+      "regex": "xoa bóp",
+      "group": "dieu_tri"
+    },
+    {
+      "id": "paper_bag",
+      "regex": "túi giấy",
+      "group": "dieu_tri"
+    },
+    {
+      "id": "own_risk",
+      "regex": "tự chịu",
+      "group": "mien_tru"
+    },
+    {
+      "id": "disclaimer",
+      "regex": "miễn trừ",
+      "group": "mien_tru"
+    },
+    {
+      "id": "no_liability",
+      "regex": "không chịu trách nhiệm",
+      "group": "mien_tru"
+    },
+    {
+      "id": "deep_breath",
+      "regex": "hít (thật )?sâu",
+      "group": "hoi_tho_rui_ro"
+    },
+    {
+      "id": "blow_hard",
+      "regex": "thổi mạnh",
+      "group": "hoi_tho_rui_ro"
+    },
+    {
+      "id": "hold_breath_long",
+      "regex": "giữ hơi lâu",
+      "group": "hoi_tho_rui_ro"
+    },
+    {
+      "id": "push_on",
+      "regex": "cố lên",
+      "group": "thuc_ep"
+    },
+    {
+      "id": "pain_normal",
+      "regex": "(đau|tê) (chút|một chút) là bình thường",
+      "group": "thuc_ep"
+    },
+    {
+      "id": "its_fine",
+      "regex": "không sao đâu",
+      "group": "thuc_ep"
+    },
+    {
+      "id": "lung_capacity",
+      "regex": "dung tích phổi",
+      "group": "cong_dung_suc_khoe"
+    },
+    {
+      "id": "good_for_health",
+      "regex": "tốt cho (phổi|sức kho[ẻe])",
+      "group": "cong_dung_suc_khoe"
+    },
+    {
+      "id": "streak",
+      "regex": "chuỗi ngày",
+      "group": "thuc_ep"
+    }
+  ]
+}

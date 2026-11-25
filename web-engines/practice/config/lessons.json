@@ -1,0 +1,61 @@
+{
+  "schema": "vocaverse.practice_lessons/0.1",
+  "version": 1,
+  "updated": "2026-11-18",
+  "retention_units": {
+    "value": ["PN06", "PN12", "SA06", "SA12"],
+    "source": "docs/05 §2.1, §5.4 mục 8"
+  },
+  "speaker_by_instrument": {
+    "value": {"piano": "idol.minh_an", "sao_truc": "idol.gia_phong"},
+    "source": "docs/05 §2.3–2.5"
+  },
+  "objectives": {
+    "status": "❓",
+    "source": "docs/05 §2.4–2.5 (cột \"Đạt khi\") đối chiếu knowledge/kb/README §7 (cột \"Lỗi chính\"); giáo viên piano và chuyên gia sáo duyệt",
+    "value": {
+      "PN01": ["PNO.ERR.WRONG_NOTE", "PNO.ERR.PECKING"],
+      "PN02": ["PNO.ERR.RUSH", "PNO.ERR.DRAG", "PNO.ERR.DYN_FLAT"],
+      "PN03": ["PNO.ERR.WRONG_NOTE", "PNO.ERR.PECKING"],
+      "PN04": ["PNO.ERR.WRONG_NOTE", "PNO.ERR.PECKING"],
+      "PN05": ["PNO.ERR.ARTIC", "PNO.ERR.DYN_FLAT"],
+      "PN06": ["PNO.ERR.WRONG_NOTE", "PNO.ERR.RUSH", "PNO.ERR.DRAG", "PNO.ERR.ARTIC", "PNO.ERR.DYN_FLAT"],
+      "PN07": ["PNO.ERR.RUSH", "PNO.ERR.DRAG"],
+      "PN08": ["PNO.ERR.HANDS_ASYNC", "PNO.ERR.SHORT_NOTE"],
+      "PN09": ["PNO.ERR.RUSH", "PNO.ERR.DRAG", "PNO.ERR.REST_SHORT"],
+      "PN10": ["PNO.ERR.WRONG_NOTE", "PNO.ERR.PECKING"],
+      "PN11": ["PNO.ERR.WRONG_NOTE", "PNO.ERR.HANDS_ASYNC"],
+      "PN12": ["PNO.ERR.WRONG_NOTE", "PNO.ERR.RUSH", "PNO.ERR.DRAG", "PNO.ERR.HANDS_ASYNC", "PNO.ERR.REST_SHORT"],
+      "SA03": ["SAO.ERR.NO_TONE", "SAO.ERR.BREATHY", "SAO.ERR.OCT_CRACK"],
+      "SA04": ["SAO.ERR.PITCH_OFF", "SAO.ERR.NO_TONE"],
+      "SA05": ["SAO.ERR.ONSET_UNCLEAR", "SAO.ERR.PITCH_OFF"],
+      "SA06": ["SAO.ERR.NO_TONE", "SAO.ERR.PITCH_OFF", "SAO.ERR.ONSET_UNCLEAR"],
+      "SA07": ["SAO.ERR.PITCH_OFF", "SAO.ERR.NO_TONE", "SAO.ERR.OCT_CRACK"],
+      "SA08": ["SAO.ERR.TONGUE"],
+      "SA09": ["SAO.ERR.SHORT_NOTE", "SAO.ERR.PHRASE_BREAK"],
+      "SA10": ["SAO.ERR.NO_OCT2", "SAO.ERR.OCT_CRACK"],
+      "SA11": ["SAO.ERR.ORN_MISSING"],
+      "SA12": ["SAO.ERR.NO_TONE", "SAO.ERR.PITCH_OFF", "SAO.ERR.TONGUE", "SAO.ERR.ORN_MISSING"]
+    }
+  },
+  "default_exercise": {
+    "value": {"piano": "ex.five_finger", "sao_truc": "ex.long_tone"},
+    "source": "docs/05 §5.5–5.6 (bài tập nhóm B)"
+  },
+  "system_phrases": {
+    "source": "docs/05 §2.1 (câu hỏi tự đánh giá), §5.4 mục 4 (âm thanh xấu), §4.4 cột \"Nói thay\" (tách nhỏ); câu xã giao `type: social` theo luật 1 docs/05 §1. Câu `rest` là câu mới của T16, ❓ chờ giáo viên duyệt",
+    "value": {
+      "unclear": "Mình chưa nghe rõ, mình thử lại câu này nhé.",
+      "self_assess": "Bạn nghe chỗ nào chưa ổn?",
+      "split": "Chỗ này khó với hầu hết người mới, mình tách nhỏ nhé.",
+      "rest": "Mình nghỉ một chút rồi tập tiếp nhé."
+    }
+  },
+  "cue_status_allowed": {
+    "source": "knowledge/README §4: thẻ chưa ký không đưa tới người học, kể cả pilot; bản phát triển và test dùng cả thẻ nháp",
+    "value": {
+      "release": ["approved"],
+      "dev": ["approved", "review", "draft", "spec"]
+    }
+  }
+}

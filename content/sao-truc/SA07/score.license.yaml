@@ -1,0 +1,39 @@
+# Hồ sơ bản quyền bản nhạc nguồn VocaVerse (D02 — Làn Sản phẩm d02-prod)
+# Sinh tự động và kiểm chứng bởi tools/build_content.py & tools/license_gate.py
+class: public_domain
+pd_scope: global
+title: SA07 — Mary Had a Little Lamb ở giọng Đô (âm bịt kín 6 lỗ C5)
+score_id: sa07_mary_had_a_little_lamb_do
+version: 1.0.0
+lesson_id: lesson.sa07
+instrument: sao_truc
+giong: C5
+level: beginner
+composers:
+- 'Edwin Pearce Christy (1815-1862) — giai điệu được gán cho ông: điệp khúc ''Merrily We Roll Along''
+  của ''Goodnight, Ladies'' (dựa trên ''Farewell, Ladies'' 1847; bản hiện nay in 16/05/1867)'
+lyricists:
+- Sarah Josepha Hale (1788-1879) — bài thơ gốc in năm 1830, bản sáo không lời
+arrangers:
+- Ban Sư phạm VocaVerse (chuyển giọng Đô trên sáo C5, nhấn âm trầm bịt kín 6 lỗ)
+evidence_url: https://en.wikipedia.org/wiki/Goodnight_Ladies
+supporting_evidence_urls:
+- https://en.wikipedia.org/wiki/Mary_Had_a_Little_Lamb
+- https://en.wikipedia.org/wiki/Edwin_Pearce_Christy
+evidence_accessed: '2026-11-18'
+evidence_summary: Giai điệu 'Merrily We Roll Along' (điệp khúc 'Goodnight, Ladies', gán cho Edwin Pearce
+  Christy 1815–1862, dựa trên 'Farewell, Ladies' 1847, bản hiện nay in 16/05/1867); lời Sarah Josepha
+  Hale (1788–1879, in 24/05/1830) không dùng. Mọi tác giả mất <= 1879 (< 1955), công bố <= 1867 (< 1930)
+  => PD toàn cầu. Giai điệu Lowell Mason (thập niên 1830) không dùng (truy cập 2026-11-18); bản sáo C5
+  gắn expert_verified_by=PENDING.
+agent_composed_bars:
+- 'ô 1-24: khởi động Đô5 ngân và thang âm quãng 1 Đô5→Si5→Đô5 nhóm 3 nốt trắng + nghỉ — bài tập chức năng,
+  không chặn xuất bản (tasks/T5b_phu-luc-nhac.md §4.1, §11.1)'
+expert_verified_by: PENDING
+publishable: false
+territories:
+- VN
+- GLOBAL
+allowed_uses:
+- in_app
+vocascore_sha256: d002d350dadcea7fe7aed7b49c8ba27976d1a4052458382325ff6ec64c3ff709

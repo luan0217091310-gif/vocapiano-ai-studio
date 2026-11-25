@@ -1,0 +1,1006 @@
+{
+  "schema": "vocascore/0.1",
+  "id": "pn08_mary_had_a_little_lamb",
+  "version": "1.0.0",
+  "title": "PN08 — Mary Had a Little Lamb (hai tay cùng lúc, tay trái giữ nốt dài)",
+  "composers": [
+    "Edwin Pearce Christy (1815-1862) — giai điệu được gán cho ông: điệp khúc 'Merrily We Roll Along' của 'Goodnight, Ladies' (dựa trên 'Farewell, Ladies' 1847; bản hiện nay in 16/05/1867)"
+  ],
+  "lyricists": [
+    "Sarah Josepha Hale (1788-1879) — bài thơ gốc in năm 1830, bản nhạc không lời"
+  ],
+  "arrangers": [
+    "Ban Sư phạm VocaVerse (phối hai tay thế Đô, tay trái giữ nốt dài)"
+  ],
+  "license": {
+    "class": "public_domain",
+    "pd_scope": "global",
+    "evidence_url": "https://en.wikipedia.org/wiki/Goodnight_Ladies",
+    "territories": [
+      "VN",
+      "GLOBAL"
+    ],
+    "allowed_uses": [
+      "lesson_video",
+      "performance_video",
+      "shorts",
+      "in_app"
+    ],
+    "attribution": "Giai điệu 'Merrily We Roll Along' — điệp khúc 'Goodnight, Ladies', gán cho Edwin Pearce Christy (1815-1862), dựa trên 'Farewell, Ladies' (1847), bản hiện nay in 16/05/1867; cũng là giai điệu phổ biến của bài thơ 'Mary Had a Little Lamb' (Sarah Josepha Hale, in 24/05/1830; bản nhạc không lời). Ghi chú lịch sử: Lowell Mason phổ nhạc bài thơ vào thập niên 1830; giai điệu đó nay không còn dùng và không được dùng ở đây.",
+    "consent_refs": []
+  },
+  "ppq": 480,
+  "tempo_map": [
+    {
+      "tick": 0,
+      "bpm": 72.0
+    }
+  ],
+  "meter_map": [
+    {
+      "tick": 0,
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "key_map": [
+    {
+      "tick": 0,
+      "tonic": "C",
+      "mode": "major"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec_v1",
+      "name": "Câu 1 hai tay đồng thời (ô 1-4)",
+      "start_tick": 0,
+      "end_tick": 7680
+    },
+    {
+      "id": "sec_v2",
+      "name": "Câu 2 kết trọn (ô 5-8)",
+      "start_tick": 7680,
+      "end_tick": 15360
+    }
+  ],
+  "parts": [
+    {
+      "id": "pno_two_hands_beginner",
+      "instrument": "piano",
+      "instrument_config": {
+        "range": [
+          21,
+          108
+        ]
+      },
+      "role": "solo",
+      "level": "beginner",
+      "notes": [
+        {
+          "id": "rh01",
+          "tick": 0,
+          "dur_tick": 480,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "lh01",
+          "tick": 0,
+          "dur_tick": 1920,
+          "pitch": 48,
+          "pitch_bend": [],
+          "velocity": 66,
+          "voice": 2,
+          "staff": 2,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "L",
+            "finger": 5
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh02",
+          "tick": 480,
+          "dur_tick": 480,
+          "pitch": 62,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 2
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh03",
+          "tick": 960,
+          "dur_tick": 480,
+          "pitch": 60,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 1
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh04",
+          "tick": 1440,
+          "dur_tick": 480,
+          "pitch": 62,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 2
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh05",
+          "tick": 1920,
+          "dur_tick": 480,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "lh02",
+          "tick": 1920,
+          "dur_tick": 960,
+          "pitch": 52,
+          "pitch_bend": [],
+          "velocity": 66,
+          "voice": 2,
+          "staff": 2,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "L",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh06",
+          "tick": 2400,
+          "dur_tick": 480,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh07",
+          "tick": 2880,
+          "dur_tick": 960,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "lh03",
+          "tick": 2880,
+          "dur_tick": 960,
+          "pitch": 48,
+          "pitch_bend": [],
+          "velocity": 66,
+          "voice": 2,
+          "staff": 2,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "L",
+            "finger": 5
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh08",
+          "tick": 3840,
+          "dur_tick": 480,
+          "pitch": 62,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 2
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "lh04",
+          "tick": 3840,
+          "dur_tick": 1920,
+          "pitch": 55,
+          "pitch_bend": [],
+          "velocity": 66,
+          "voice": 2,
+          "staff": 2,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "L",
+            "finger": 1
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh09",
+          "tick": 4320,
+          "dur_tick": 480,
+          "pitch": 62,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 2
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh10",
+          "tick": 4800,
+          "dur_tick": 960,
+          "pitch": 62,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 2
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh11",
+          "tick": 5760,
+          "dur_tick": 480,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "lh05",
+          "tick": 5760,
+          "dur_tick": 1920,
+          "pitch": 48,
+          "pitch_bend": [],
+          "velocity": 66,
+          "voice": 2,
+          "staff": 2,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "L",
+            "finger": 5
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh12",
+          "tick": 6240,
+          "dur_tick": 480,
+          "pitch": 67,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 5
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh13",
+          "tick": 6720,
+          "dur_tick": 960,
+          "pitch": 67,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 5
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh14",
+          "tick": 7680,
+          "dur_tick": 480,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "lh06",
+          "tick": 7680,
+          "dur_tick": 1920,
+          "pitch": 48,
+          "pitch_bend": [],
+          "velocity": 66,
+          "voice": 2,
+          "staff": 2,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "L",
+            "finger": 5
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh15",
+          "tick": 8160,
+          "dur_tick": 480,
+          "pitch": 62,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 2
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh16",
+          "tick": 8640,
+          "dur_tick": 480,
+          "pitch": 60,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 1
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh17",
+          "tick": 9120,
+          "dur_tick": 480,
+          "pitch": 62,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 2
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh18",
+          "tick": 9600,
+          "dur_tick": 480,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "lh07",
+          "tick": 9600,
+          "dur_tick": 960,
+          "pitch": 52,
+          "pitch_bend": [],
+          "velocity": 66,
+          "voice": 2,
+          "staff": 2,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "L",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh19",
+          "tick": 10080,
+          "dur_tick": 480,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh20",
+          "tick": 10560,
+          "dur_tick": 480,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "lh08",
+          "tick": 10560,
+          "dur_tick": 960,
+          "pitch": 48,
+          "pitch_bend": [],
+          "velocity": 66,
+          "voice": 2,
+          "staff": 2,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "L",
+            "finger": 5
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh21",
+          "tick": 11040,
+          "dur_tick": 480,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh22",
+          "tick": 11520,
+          "dur_tick": 480,
+          "pitch": 62,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 2
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "lh09",
+          "tick": 11520,
+          "dur_tick": 1920,
+          "pitch": 55,
+          "pitch_bend": [],
+          "velocity": 66,
+          "voice": 2,
+          "staff": 2,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "L",
+            "finger": 1
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh23",
+          "tick": 12000,
+          "dur_tick": 480,
+          "pitch": 62,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 2
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh24",
+          "tick": 12480,
+          "dur_tick": 480,
+          "pitch": 64,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 3
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh25",
+          "tick": 12960,
+          "dur_tick": 480,
+          "pitch": 62,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 2
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "rh26",
+          "tick": 13440,
+          "dur_tick": 1920,
+          "pitch": 60,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "R",
+            "finger": 1
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        },
+        {
+          "id": "lh10",
+          "tick": 13440,
+          "dur_tick": 1920,
+          "pitch": 48,
+          "pitch_bend": [],
+          "velocity": 66,
+          "voice": 2,
+          "staff": 2,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.96,
+            "kind": "piano",
+            "hand": "L",
+            "finger": 5
+          },
+          "pedagogy": {
+            "skill_node": "kb://pno.hands.together.01@1"
+          }
+        }
+      ],
+      "chords": [],
+      "lyrics": [],
+      "patterns": []
+    }
+  ],
+  "provenance": {
+    "created_by": "ingest",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Goodnight_Ladies",
+      "https://en.wikipedia.org/wiki/Mary_Had_a_Little_Lamb",
+      "https://en.wikipedia.org/wiki/Edwin_Pearce_Christy",
+      "docs/05_su-pham-va-gia-su-1-1.md#2.4"
+    ],
+    "parent_versions": [],
+    "tools": [
+      {
+        "name": "tools/build_content.py",
+        "version": "0.1.0"
+      },
+      {
+        "name": "vocaverse_score",
+        "version": "0.1.0"
+      }
+    ]
+  }
+}

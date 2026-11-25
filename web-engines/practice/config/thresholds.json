@@ -1,0 +1,120 @@
+{
+  "schema": "vocaverse.practice_thresholds/0.1",
+  "version": 1,
+  "updated": "2026-11-18",
+  "legend": {
+    "status": "\"nguồn\" = lấy từ tài liệu dự án hoặc nguồn đã trích; \"❓\" = giá trị khởi điểm chưa qua pilot hoặc chưa có nguồn, hiệu chỉnh ở pilot (D-19, docs/05 §2.1)",
+    "unit": "đơn vị của value"
+  },
+  "groups": {
+    "follower": {
+      "window_beats": {"value": 0.45, "unit": "phách", "status": "❓", "source": "Nhận định T16: < 0,5 phách để không nhầm hai onset liền nhau (L2: ngắn nhất là nốt đen)"},
+      "min_window_ms": {"value": 150, "unit": "ms", "status": "❓", "source": "Nhận định T16"},
+      "rate_min": {"value": 0.5, "unit": "tỉ lệ", "status": "❓", "source": "Nhận định T16: tempo người học trong [50%, 200%] tempo đoạn"},
+      "rate_max": {"value": 2.0, "unit": "tỉ lệ", "status": "❓", "source": "Nhận định T16"},
+      "rate_window": {"value": 6, "unit": "cặp nốt", "status": "❓", "source": "Nhận định T16: số cặp khớp gần nhất để ước lượng tempo (chế độ tự do)"},
+      "offset_window": {"value": 3, "unit": "cặp nốt", "status": "❓", "source": "Nhận định T16: trung vị độ lệch 3 nốt khớp gần nhất"},
+      "onset_tolerance_ms": {"value": 100, "unit": "ms", "status": "nguồn", "source": "schemas/lesson-package-0.2: PracticeTarget.onset_tolerance_ms mặc định 100; docs/05 §2.4 PN09 ±100 ms ❓"},
+      "miss_timeout_beats": {"value": 4, "unit": "phách", "status": "❓", "source": "Nhận định T16: khi người học dừng hẳn (không sự kiện), nốt quá hạn chờ chừng này phách thì coi là thiếu"},
+      "min_phrase_coverage": {"value": 0.5, "unit": "tỉ lệ nốt khớp", "status": "❓", "source": "Nhận định T16: dưới mức này coi câu là \"chưa nghe rõ\" (docs/05 §5.4 mục 4)"}
+    },
+    "index": {
+      "phrase_max_bars": {"value": 4, "unit": "ô", "status": "❓", "source": "Nhận định T16: câu nhạc = Section của SSOT, cắt khúc ≤ 4 ô (docs/05 §3.1 chia mảnh 2–4 ô)"},
+      "rest_min_beats": {"value": 0.5, "unit": "phách", "status": "❓", "source": "Nhận định T16: khoảng trống ≥ nửa phách trong một dòng là dấu lặng"}
+    },
+    "wrong_note": {
+      "conf_substitution": {"value": 0.95, "unit": "0..1", "status": "❓", "source": "Nhận định T16: MIDI đo cao độ chính xác; còn rủi ro khớp nhầm vị trí"},
+      "conf_missed": {"value": 0.85, "unit": "0..1", "status": "❓", "source": "Nhận định T16"},
+      "conf_extra": {"value": 0.6, "unit": "0..1", "status": "❓", "source": "Nhận định T16: nốt thừa đơn lẻ dễ là chạm nhầm phím, dưới ngưỡng báo"},
+      "shift_min_notes": {"value": 3, "unit": "nốt", "status": "❓", "source": "Nhận định T16: \"cả câu lệch đều\" cần ≥ 3 nốt"},
+      "shift_min_fraction": {"value": 0.8, "unit": "tỉ lệ", "status": "❓", "source": "Nhận định T16"}
+    },
+    "timing": {
+      "min_onsets": {"value": 5, "unit": "onset", "status": "❓", "source": "Nhận định T16: đủ điểm để ước lượng xu hướng nhanh/chậm dần"},
+      "drift_ms": {"value": 120, "unit": "ms trôi trong câu", "status": "❓", "source": "docs/05 §2.4 PN02: onset lệch ≤ ±120 ms ❓"},
+      "min_concordance": {"value": 0.7, "unit": "tỉ lệ cặp cùng chiều", "status": "❓", "source": "Nhận định T16: xu hướng phải nhất quán (dùng độ dốc Theil–Sen)"},
+      "long_note_beats": {"value": 2, "unit": "phách", "status": "❓", "source": "Nhận định T16: \"nốt dài\" = từ nốt trắng"},
+      "early_fraction": {"value": 0.15, "unit": "tỉ lệ trường độ", "status": "❓", "source": "Nhận định T16: onset sau nốt dài đến sớm"},
+      "early_min_ms": {"value": 150, "unit": "ms", "status": "❓", "source": "Nhận định T16"},
+      "late_after_rest_fraction": {"value": 0.25, "unit": "tỉ lệ dấu lặng", "status": "❓", "source": "Nhận định T16"},
+      "late_min_ms": {"value": 150, "unit": "ms", "status": "❓", "source": "Nhận định T16"},
+      "stall_beats": {"value": 1.0, "unit": "phách", "status": "❓", "source": "Nhận định T16: khựng ≥ 1 phách là đứt mạch"},
+      "switch_gap_fraction": {"value": 0.25, "unit": "tỉ lệ khoảng onset", "status": "❓", "source": "Nhận định T16 (PN07: đổi tay đúng phách)"},
+      "switch_gap_min_ms": {"value": 120, "unit": "ms", "status": "❓", "source": "Nhận định T16"},
+      "switch_gap_min_count": {"value": 2, "unit": "chỗ đổi tay", "status": "❓", "source": "Nhận định T16"}
+    },
+    "hands_async": {
+      "threshold_ms": {"value": 60, "unit": "ms (trung vị)", "status": "❓", "source": "docs/05 §5.5 PNO.ERR.HANDS_ASYNC > 60 ms ❓; §2.4 PN08 trung vị ≤ 60 ms ❓"},
+      "min_pairs": {"value": 2, "unit": "onset hai tay", "status": "❓", "source": "Nhận định T16"},
+      "direction_consistency": {"value": 0.8, "unit": "tỉ lệ cùng chiều", "status": "❓", "source": "Nhận định T16; docs/05 §5.5: không nói tay nào vào trước khi chưa đo chắc chiều lệch"}
+    },
+    "artic": {
+      "legato_gap_ms": {"value": 30, "unit": "ms", "status": "nguồn", "source": "docs/05 §2.4 PN05: legato khe ≤ 30 ms"},
+      "legato_ok_fraction": {"value": 0.8, "unit": "tỉ lệ cặp", "status": "nguồn", "source": "docs/05 §2.4 PN05: ≥ 80% cặp nốt, không tính cặp cùng cao độ"},
+      "staccato_max_ratio": {"value": 0.5, "unit": "tỉ lệ trường độ", "status": "❓", "source": "docs/05 §2.4 PN05: staccato giữ ≤ 50% trường độ ❓"},
+      "staccato_ok_fraction": {"value": 0.8, "unit": "tỉ lệ nốt", "status": "❓", "source": "Nhận định T16, theo cách tính legato"},
+      "min_pairs": {"value": 3, "unit": "cặp legato", "status": "❓", "source": "Nhận định T16"},
+      "min_staccato": {"value": 2, "unit": "nốt staccato", "status": "❓", "source": "Nhận định T16"}
+    },
+    "dyn_flat": {
+      "p_max_velocity": {"value": 60, "unit": "velocity", "status": "nguồn", "source": "tasks/T5b phụ lục §1 (p = 54, f = 86: ≤ 60 là p), theo engines/score validate/level_rules.py"},
+      "f_min_velocity": {"value": 84, "unit": "velocity", "status": "nguồn", "source": "tasks/T5b phụ lục §1 (≥ 84 là f)"},
+      "min_diff": {"value": 20, "unit": "velocity (trung vị)", "status": "❓", "source": "docs/05 §2.4 PN02: chênh velocity trung vị ≥ 20 ❓"},
+      "min_notes_each": {"value": 4, "unit": "nốt", "status": "❓", "source": "Nhận định T16"}
+    },
+    "pecking": {
+      "lessons": {"value": ["PN01", "PN03", "PN04", "PN10"], "unit": "đơn vị", "status": "nguồn", "source": "docs/05 §5.4 mục 6, §5.5; D-19 v2"},
+      "gap_ms": {"value": 60, "unit": "ms", "status": "❓", "source": "Nhận định T16: khe rõ giữa hai nốt liền (gấp đôi ngưỡng legato 30 ms)"},
+      "fraction": {"value": 0.9, "unit": "tỉ lệ cặp", "status": "❓", "source": "docs/05 §5.5: \"mọi nốt có khe hở\" → ≥ 90% cặp ❓"},
+      "min_pairs": {"value": 4, "unit": "cặp", "status": "❓", "source": "Nhận định T16"}
+    },
+    "rest_short": {
+      "shorten_fraction": {"value": 0.25, "unit": "tỉ lệ dấu lặng", "status": "❓", "source": "Nhận định T16"},
+      "min_ms": {"value": 80, "unit": "ms", "status": "❓", "source": "Nhận định T16"},
+      "ok_fraction": {"value": 0.9, "unit": "tỉ lệ dấu lặng", "status": "❓", "source": "docs/05 §2.4 PN09: giữ đúng ≥ 90% dấu lặng ❓"}
+    },
+    "short_note": {
+      "long_note_beats": {"value": 2, "unit": "phách", "status": "❓", "source": "Nhận định T16: \"nốt dài\" = từ nốt trắng"},
+      "hold_ratio_min": {"value": 0.9, "unit": "tỉ lệ trường độ", "status": "❓", "source": "docs/05 §5.5, docs/02a v1.11: nhả trước 90% trường độ ❓"},
+      "next_on_time_ms": {"value": 120, "unit": "ms", "status": "❓", "source": "Nhận định T16: \"nốt sau vẫn đúng phách\""}
+    },
+    "policy": {
+      "min_confidence": {"value": 0.7, "unit": "0..1", "status": "❓", "source": "docs/05 §5.4 mục 4: \"độ tin cậy vượt ngưỡng\" (ngưỡng chưa có số)"},
+      "recur_window": {"value": 3, "unit": "lượt", "status": "nguồn", "source": "docs/05 §5.4 mục 4: lỗi lặp ≥ 2/3 lượt"},
+      "recur_min": {"value": 2, "unit": "lượt", "status": "nguồn", "source": "docs/05 §5.4 mục 4"},
+      "false_alarm_budget": {"value": 0.05, "unit": "tỉ lệ báo sai", "status": "❓", "source": "docs/05 §5.4 mục 4: ngân sách báo sai ≤ 5% ❓"},
+      "budget_min_reports": {"value": 20, "unit": "nhận xét", "status": "❓", "source": "Nhận định T16: cỡ mẫu tối thiểu trước khi siết ngưỡng"},
+      "confidence_step": {"value": 0.05, "unit": "0..1", "status": "❓", "source": "Nhận định T16"},
+      "confidence_cap": {"value": 0.95, "unit": "0..1", "status": "❓", "source": "Nhận định T16"},
+      "self_assess_every": {"value": 4, "unit": "lượt", "status": "nguồn", "source": "docs/05 §2.1, §5.4 mục 5: cứ 3–5 lượt (tham số A/B, mục 7)"},
+      "fail_streak": {"value": 5, "unit": "lượt", "status": "nguồn", "source": "docs/05 §5.4 mục 3: hỏng 5 lượt liên tiếp thì chia nhỏ hoặc gợi ý nghỉ"},
+      "hint_max_per_session": {"value": 1, "unit": "lần", "status": "❓", "source": "kb pno.rh.c_pos.01 escalation PNO.ERR.PECKING: gợi ý một lần mỗi buổi"},
+      "retention_max_items": {"value": 3, "unit": "nhận xét", "status": "❓", "source": "Nhận định T16: phản hồi sau bài kiểm tra lưu giữ"},
+      "retention_min_confidence": {"value": 0.8, "unit": "0..1", "status": "❓", "source": "Nhận định T16: bài kiểm tra chỉ có một lượt nên không dùng được luật 2/3"}
+    },
+    "gen": {
+      "slow_min_pct": {"value": 40, "unit": "%", "status": "nguồn", "source": "docs/05 §5.6: gen.slow 40–100%"},
+      "slow_max_pct": {"value": 100, "unit": "%", "status": "nguồn", "source": "docs/05 §5.6: không bao giờ > 100%"},
+      "split_slow_pct": {"value": 70, "unit": "%", "status": "❓", "source": "Nhận định T16: bậc \"chia nhỏ, hạ tempo\""},
+      "ladder_steps": {"value": [60, 80, 100], "unit": "%", "status": "nguồn", "source": "docs/05 §3.1 bước 5: mặc định 60/80/100%"},
+      "ladder_advance_after": {"value": 3, "unit": "lượt đúng liên tiếp", "status": "nguồn", "source": "docs/05 §5.7; knowledge/kb/README §3.2: đúng 3 lần liên tiếp mới tăng"},
+      "loop_span_bars": {"value": 1, "unit": "ô mỗi bên", "status": "nguồn", "source": "docs/05 §5.6: gen.loop cắt theo vạch nhịp, ±1 ô"},
+      "subdivision": {"value": 2, "unit": "tiếng mỗi phách", "status": "❓", "source": "Nhận định T16: chia đôi phách cho gen.subdivide"},
+      "count_in_bars": {"value": 1, "unit": "ô", "status": "❓", "source": "Nhận định T16: đếm vào một ô"}
+    },
+    "level": {
+      "max_bpm": {"value": 80, "unit": "bpm", "status": "nguồn", "source": "docs/05 §2.2 L6"},
+      "sao_phrase_max_bars": {"value": 4, "unit": "ô", "status": "nguồn", "source": "docs/05 §2.2 L6"},
+      "sao_phrase_max_seconds": {"from_safety": "exhale_max_s", "unit": "giây", "status": "❓", "source": "docs/05 v2.7 §2.2 L6, §5.4 mục 9; giá trị đọc từ knowledge/safety/safety_cards.yaml params.exhale_max_s (qua data/safety_params.json), không ghi cứng"},
+      "long_note_seconds": {"from_safety": "long_note_min_s", "unit": "giây", "status": "❓", "source": "docs/05 v2.7 §2.2 L7; safety_cards.yaml params.long_note_min_s"},
+      "long_note_streak": {"from_safety": "long_note_streak", "unit": "nốt", "status": "❓", "source": "docs/05 v2.7 §2.2 L7 (≤ 4 nốt ngân dài); safety_cards.yaml params.long_note_streak"},
+      "rest_min_bars": {"value": 1, "unit": "ô", "status": "nguồn", "source": "docs/05 §2.2 L7: nghỉ = dấu lặng ≥ 1 ô; quãng nghỉ app chèn khi chia câu cũng dài ≥ 1 ô"},
+      "breath_pause_seconds": {"from_safety": "breath_pause_s", "unit": "giây", "status": "❓", "source": "docs/05 §2.2 L7 (quãng dừng app chèn); safety_cards.yaml params.breath_pause_s"},
+      "min_dur_quarters": {"value": 1, "unit": "nốt đen", "status": "nguồn", "source": "docs/05 §2.2 L2: ngắn nhất là nốt đen"}
+    },
+    "cue": {
+      "max_syllables": {"value": 25, "unit": "âm tiết", "status": "nguồn", "source": "knowledge/kb/README §3.4"},
+      "max_syllables_during_play": {"value": 15, "unit": "âm tiết", "status": "nguồn", "source": "knowledge/kb/README §3.4; docs/05 §3.3"}
+    }
+  }
+}

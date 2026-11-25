@@ -1,0 +1,29 @@
+# Hồ sơ bản quyền bản nhạc nguồn VocaVerse (D02 — Làn Sản phẩm d02-prod)
+# Sinh tự động và kiểm chứng bởi tools/build_content.py & tools/license_gate.py
+class: original_inhouse
+title: SA11 (Dự phòng) — Étude kỹ thuật láy đơn trên sáo C5
+score_id: sa11_backup_etude_lay_don
+version: 1.0.0
+lesson_id: lesson.sa11
+backup_for: lesson.sa11
+instrument: sao_truc
+giong: C5
+level: easy
+composers:
+- Ban Sư phạm VocaVerse
+holder: VocaVerse Studio (D02)
+license_ref: rights://vocaverse_inhouse_mvp_alpha@1.0.0
+evidence_url: content/rights/vocaverse_inhouse_mvp_alpha.yaml
+evidence_accessed: '2026-11-18'
+evidence_summary: 'Étude láy đơn thuần kỹ thuật tự soạn nội bộ (original_inhouse, không mô phỏng dân ca,
+  expert_verified_by=PENDING) dự phòng cho lesson.sa11 (2026-11-18). Hồ sơ quyền rights://vocaverse_inhouse_mvp_alpha@1.0.0
+  ở trạng thái PENDING: bài do agent sinh, chưa có người đồng sáng tác; chờ giáo viên hoặc nhạc sĩ người
+  thật duyệt, ký đồng sáng tác kèm nhật ký đóng góp (hợp đồng nội bộ PENDING, R4 C4) → publishable: false.'
+expert_verified_by: PENDING
+publishable: false
+territories:
+- VN
+- GLOBAL
+allowed_uses:
+- in_app
+vocascore_sha256: 3736d49468b24a8e4d19918af137885dbf31fd0804e71b8d62c35d81647f98b1

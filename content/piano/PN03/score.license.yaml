@@ -1,0 +1,32 @@
+# Hồ sơ bản quyền bản nhạc nguồn VocaVerse (D02 — Làn Sản phẩm d02-prod)
+# Sinh tự động và kiểm chứng bởi tools/build_content.py & tools/license_gate.py
+class: public_domain
+pd_scope: global
+title: PN03 — Chủ đề Ode to Joy (bản beginner bỏ chấm dôi)
+score_id: pn03_ode_to_joy
+version: 1.0.0
+lesson_id: lesson.pn03
+instrument: piano
+level: beginner
+composers:
+- Ludwig van Beethoven (1770-1827)
+arrangers:
+- Ban Sư phạm VocaVerse (chuyển giọng Đô trưởng 5 ngón, bỏ chấm dôi ô 4 & 8)
+evidence_url: https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)
+supporting_evidence_urls:
+- https://en.wikipedia.org/wiki/Ludwig_van_Beethoven
+- https://en.wikipedia.org/wiki/Friedrich_Schiller
+evidence_accessed: '2026-11-18'
+evidence_summary: Ludwig van Beethoven (1770–26/03/1827), Giao hưởng số 9 Op. 125 hoàn thành năm 1824
+  (thơ gốc Friedrich Schiller 1759–1805; bản này độc tấu không lời) — mất trước 1955 và công bố trước
+  1930 => PD toàn cầu (truy cập 2026-11-18).
+publishable: true
+territories:
+- VN
+- GLOBAL
+allowed_uses:
+- lesson_video
+- performance_video
+- shorts
+- in_app
+vocascore_sha256: edbc8e609f38982c41b71919c56fd58c4db8879a329a6e49da82dabca2f28e51

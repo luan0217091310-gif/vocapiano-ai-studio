@@ -1,0 +1,15 @@
+{
+  "name": "@vocaverse/practice",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lõi gia sư 1-1 trên thiết bị (T16): TypeScript chạy trực tiếp trên Node 24 (bỏ kiểu), không phụ thuộc gói ngoài",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "eval": "node scripts/eval_synthetic.ts"
+  }
+}

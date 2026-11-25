@@ -1,0 +1,28 @@
+{
+  "schema": "vocaverse.practice_safety_params/0.1",
+  "generator": "tools/export_kb_cues.py",
+  "source": "knowledge/safety/safety_cards.yaml",
+  "sha256": "24bf89b805b63ace763b69d20f0bb5d1147873d3a462f4b2acae8f7ab2f7fd81",
+  "expert_signed": false,
+  "params": {
+    "break_min": 10,
+    "breath_pause_s": 30,
+    "dizzy_rest_min": 10,
+    "exhale_max_s": 8,
+    "exhale_target_s": [
+      4,
+      6
+    ],
+    "long_note_min_s": 2,
+    "long_note_streak": 4,
+    "pain_lock_min": 10,
+    "posture_card_s": 10,
+    "practice_min": 20,
+    "recurrent_sessions": 2,
+    "recurrent_window_days": 14,
+    "warmup_s": [
+      60,
+      90
+    ]
+  }
+}

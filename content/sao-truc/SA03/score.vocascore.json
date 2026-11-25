@@ -1,0 +1,258 @@
+{
+  "schema": "vocascore/0.1",
+  "id": "sa03_tieng_dau_am_it_lo",
+  "version": "1.0.0",
+  "title": "SA03 — Tiếng đầu tiên trên âm ít lỗ (Sol5 2 lỗ & Fa5 3 lỗ)",
+  "composers": [
+    "Ban Sư phạm VocaVerse"
+  ],
+  "lyricists": [],
+  "arrangers": [],
+  "license": {
+    "class": "original_inhouse",
+    "holder": "VocaVerse Studio (D02)",
+    "license_ref": "rights://vocaverse_inhouse_mvp_alpha@1.0.0",
+    "evidence_url": "content/rights/vocaverse_inhouse_mvp_alpha.yaml",
+    "territories": [
+      "VN",
+      "GLOBAL"
+    ],
+    "allowed_uses": [
+      "in_app"
+    ],
+    "attribution": "Bài tập nội bộ MVP-α do agent sinh bằng tools/build_content.py cho Ban Sư phạm VocaVerse; chưa có người đồng sáng tác; chờ giáo viên hoặc nhạc sĩ người thật duyệt, ký đồng sáng tác kèm nhật ký đóng góp (hợp đồng nội bộ PENDING, R4 C4). Bản ký âm sáo Đô C5 chờ chuyên gia sáo trúc ký duyệt FluteChart C5.",
+    "expert_verified_by": "PENDING",
+    "consent_refs": []
+  },
+  "ppq": 480,
+  "tempo_map": [
+    {
+      "tick": 0,
+      "bpm": 60.0
+    }
+  ],
+  "meter_map": [
+    {
+      "tick": 0,
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "key_map": [
+    {
+      "tick": 0,
+      "tonic": "C",
+      "mode": "major"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec_turns_1_3",
+      "name": "Lượt ngân 1–3, nghỉ 1 ô sau mỗi lượt (ô 1-7)",
+      "start_tick": 0,
+      "end_tick": 13440
+    },
+    {
+      "id": "sec_turns_4_6",
+      "name": "Lượt ngân 4–6 sau 2 ô nghỉ (ô 8-12)",
+      "start_tick": 13440,
+      "end_tick": 23040
+    }
+  ],
+  "parts": [
+    {
+      "id": "sao_c5_beginner",
+      "instrument": "sao_truc",
+      "instrument_config": {
+        "giong": "C5",
+        "holes": 6
+      },
+      "role": "solo",
+      "level": "beginner",
+      "notes": [
+        {
+          "id": "n01",
+          "tick": 0,
+          "dur_tick": 1920,
+          "pitch": 79,
+          "pitch_bend": [],
+          "velocity": 74,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.tone.first_sound.01@1"
+          }
+        },
+        {
+          "id": "n02",
+          "tick": 3840,
+          "dur_tick": 1920,
+          "pitch": 79,
+          "pitch_bend": [],
+          "velocity": 74,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.tone.first_sound.01@1"
+          }
+        },
+        {
+          "id": "n03",
+          "tick": 7680,
+          "dur_tick": 1920,
+          "pitch": 77,
+          "pitch_bend": [],
+          "velocity": 74,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.tone.first_sound.01@1"
+          }
+        },
+        {
+          "id": "n04",
+          "tick": 13440,
+          "dur_tick": 1920,
+          "pitch": 77,
+          "pitch_bend": [],
+          "velocity": 74,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.tone.first_sound.01@1"
+          }
+        },
+        {
+          "id": "n05",
+          "tick": 17280,
+          "dur_tick": 1920,
+          "pitch": 79,
+          "pitch_bend": [],
+          "velocity": 74,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.tone.first_sound.01@1"
+          }
+        },
+        {
+          "id": "n06",
+          "tick": 21120,
+          "dur_tick": 1920,
+          "pitch": 77,
+          "pitch_bend": [],
+          "velocity": 74,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.tone.first_sound.01@1"
+          }
+        }
+      ],
+      "chords": [],
+      "lyrics": [],
+      "patterns": []
+    }
+  ],
+  "provenance": {
+    "created_by": "compose",
+    "sources": [
+      "docs/05_su-pham-va-gia-su-1-1.md#2.5"
+    ],
+    "parent_versions": [],
+    "tools": [
+      {
+        "name": "tools/build_content.py",
+        "version": "0.1.0"
+      },
+      {
+        "name": "vocaverse_score",
+        "version": "0.1.0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+# Hồ sơ bản quyền bản nhạc nguồn VocaVerse (D02 — Làn Sản phẩm d02-prod)
+# Sinh tự động và kiểm chứng bởi tools/build_content.py & tools/license_gate.py
+class: original_inhouse
+title: SA04 — Đi xuống từng lỗ (La5 – Sol5 – Fa5 – Mi5 trên sáo C5)
+score_id: sa04_di_xuong_tung_lo
+version: 1.0.0
+lesson_id: lesson.sa04
+instrument: sao_truc
+giong: C5
+level: beginner
+composers:
+- Ban Sư phạm VocaVerse
+holder: VocaVerse Studio (D02)
+license_ref: rights://vocaverse_inhouse_mvp_alpha@1.0.0
+evidence_url: content/rights/vocaverse_inhouse_mvp_alpha.yaml
+evidence_accessed: '2026-11-18'
+evidence_summary: 'Bài tập 4 nốt đi xuống từng lỗ tự soạn nội bộ (original_inhouse, sáo C5, expert_verified_by=PENDING)
+  theo Luật SHTT (truy cập 2026-11-18). Hồ sơ quyền rights://vocaverse_inhouse_mvp_alpha@1.0.0 ở trạng
+  thái PENDING: bài do agent sinh, chưa có người đồng sáng tác; chờ giáo viên hoặc nhạc sĩ người thật
+  duyệt, ký đồng sáng tác kèm nhật ký đóng góp (hợp đồng nội bộ PENDING, R4 C4) → publishable: false.'
+expert_verified_by: PENDING
+publishable: false
+territories:
+- VN
+- GLOBAL
+allowed_uses:
+- in_app
+vocascore_sha256: d9b1816baeba226e798b56abca6ff36c4828b27030d98dc7fada185398b5736b

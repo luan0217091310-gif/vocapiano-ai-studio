@@ -1,0 +1,28 @@
+# Hồ sơ bản quyền bản nhạc nguồn VocaVerse (D02 — Làn Sản phẩm d02-prod)
+# Sinh tự động và kiểm chứng bởi tools/build_content.py & tools/license_gate.py
+class: public_domain
+pd_scope: global
+title: SA05 — Au clair de la lune ở giọng Fa (3 âm ít lỗ & đánh lưỡi đơn)
+score_id: sa05_au_clair_de_la_lune_fa
+version: 1.0.0
+lesson_id: lesson.sa05
+instrument: sao_truc
+giong: C5
+level: beginner
+composers:
+- Khuyết danh (Dân ca Pháp thế kỷ 18, in từ năm 1820)
+arrangers:
+- 'Ban Sư phạm VocaVerse (chuyển giọng Fa trưởng trên sáo C5: Fa5–Sol5–La5; thêm lặng đen lấy hơi cuối
+  ô 2 và ô 6)'
+evidence_url: https://en.wikipedia.org/wiki/Au_clair_de_la_lune
+evidence_accessed: '2026-11-18'
+evidence_summary: Dân ca Pháp khuyết danh thế kỷ 18, in từ năm 1820 (Les Voitures Versées) — PD toàn cầu;
+  bản sáo C5 gắn expert_verified_by=PENDING (truy cập 2026-11-18).
+expert_verified_by: PENDING
+publishable: false
+territories:
+- VN
+- GLOBAL
+allowed_uses:
+- in_app
+vocascore_sha256: 9d62c13a06e44061784ea614c31bbc6ad87880cb013988726c76f36f8cf8dc8e

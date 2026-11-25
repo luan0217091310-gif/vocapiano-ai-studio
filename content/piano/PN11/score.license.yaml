@@ -1,0 +1,30 @@
+# Hồ sơ bản quyền bản nhạc nguồn VocaVerse (D02 — Làn Sản phẩm d02-prod)
+# Sinh tự động và kiểm chứng bởi tools/build_content.py & tools/license_gate.py
+class: public_domain
+pd_scope: global
+title: PN11 — Đệm I–V7 thế rút gọn cho chủ đề Ode to Joy
+score_id: pn11_dem_i_v7_ode_to_joy
+version: 1.0.0
+lesson_id: lesson.pn11
+instrument: piano
+level: easy
+composers:
+- Ludwig van Beethoven (1770-1827)
+arrangers:
+- Ban Sư phạm VocaVerse (phối đệm tay trái I Đô-Mi-Sol <-> V7 Si-Fa-Sol không luồn ngón)
+evidence_url: https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)
+supporting_evidence_urls:
+- https://en.wikipedia.org/wiki/Ludwig_van_Beethoven
+evidence_accessed: '2026-11-18'
+evidence_summary: Chủ đề gốc của Ludwig van Beethoven (1770–1827, Giao hưởng số 9 hoàn thành 1824) thuộc
+  PD toàn cầu; phần đệm I–V7 thế rút gọn do Ban Sư phạm VocaVerse tự phối (truy cập 2026-11-18).
+publishable: true
+territories:
+- VN
+- GLOBAL
+allowed_uses:
+- lesson_video
+- performance_video
+- shorts
+- in_app
+vocascore_sha256: 22d1de62f3d3c212bf413be6a793ae81ce43bab7d727c7934279f8f7c71e1b80

@@ -1,0 +1,1229 @@
+{
+  "schema": "vocascore/0.1",
+  "id": "sa07_mary_had_a_little_lamb_do",
+  "version": "1.0.0",
+  "title": "SA07 — Mary Had a Little Lamb ở giọng Đô (âm bịt kín 6 lỗ C5)",
+  "composers": [
+    "Edwin Pearce Christy (1815-1862) — giai điệu được gán cho ông: điệp khúc 'Merrily We Roll Along' của 'Goodnight, Ladies' (dựa trên 'Farewell, Ladies' 1847; bản hiện nay in 16/05/1867)"
+  ],
+  "lyricists": [
+    "Sarah Josepha Hale (1788-1879) — bài thơ gốc in năm 1830, bản sáo không lời"
+  ],
+  "arrangers": [
+    "Ban Sư phạm VocaVerse (chuyển giọng Đô trên sáo C5, nhấn âm trầm bịt kín 6 lỗ)"
+  ],
+  "license": {
+    "class": "public_domain",
+    "pd_scope": "global",
+    "evidence_url": "https://en.wikipedia.org/wiki/Goodnight_Ladies",
+    "territories": [
+      "VN",
+      "GLOBAL"
+    ],
+    "allowed_uses": [
+      "in_app"
+    ],
+    "attribution": "Giai điệu 'Merrily We Roll Along' — điệp khúc 'Goodnight, Ladies', gán cho Edwin Pearce Christy (1815-1862), dựa trên 'Farewell, Ladies' (1847), bản hiện nay in 16/05/1867; cũng là giai điệu phổ biến của bài thơ 'Mary Had a Little Lamb' (Sarah Josepha Hale, in 24/05/1830; bản sáo không lời). Ghi chú lịch sử: Lowell Mason phổ nhạc bài thơ vào thập niên 1830; giai điệu đó nay không còn dùng và không được dùng ở đây. — Bản ký âm sáo Đô C5 chờ chuyên gia sáo trúc ký duyệt.",
+    "expert_verified_by": "PENDING",
+    "consent_refs": []
+  },
+  "ppq": 480,
+  "tempo_map": [
+    {
+      "tick": 0,
+      "bpm": 60.0
+    }
+  ],
+  "meter_map": [
+    {
+      "tick": 0,
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "key_map": [
+    {
+      "tick": 0,
+      "tonic": "C",
+      "mode": "major"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec_c5_longtone",
+      "name": "Khởi động: Đô5 bịt kín ngân 4 giây × 5 lượt (ô 1-10)",
+      "start_tick": 0,
+      "end_tick": 19200
+    },
+    {
+      "id": "sec_scale_oct1",
+      "name": "Thang âm quãng 1 Đô5→Si5→Đô5 nốt trắng, nhóm 3 nốt + nghỉ (ô 11-24)",
+      "start_tick": 19200,
+      "end_tick": 46080
+    },
+    {
+      "id": "sec_c5_a1",
+      "name": "Mary câu 1 — chạm Đô5 bịt kín (ô 25-28)",
+      "start_tick": 46080,
+      "end_tick": 53760
+    },
+    {
+      "id": "sec_c5_a2",
+      "name": "Mary câu 2 — ngân kết Đô5 (ô 29-32)",
+      "start_tick": 53760,
+      "end_tick": 61440
+    }
+  ],
+  "parts": [
+    {
+      "id": "sao_c5_beginner",
+      "instrument": "sao_truc",
+      "instrument_config": {
+        "giong": "C5",
+        "holes": 6
+      },
+      "role": "solo",
+      "level": "beginner",
+      "notes": [
+        {
+          "id": "n01",
+          "tick": 0,
+          "dur_tick": 1920,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n02",
+          "tick": 3840,
+          "dur_tick": 1920,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n03",
+          "tick": 7680,
+          "dur_tick": 1920,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n04",
+          "tick": 11520,
+          "dur_tick": 1920,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n05",
+          "tick": 15360,
+          "dur_tick": 1920,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n06",
+          "tick": 19200,
+          "dur_tick": 960,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n07",
+          "tick": 20160,
+          "dur_tick": 960,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n08",
+          "tick": 21120,
+          "dur_tick": 960,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n09",
+          "tick": 24960,
+          "dur_tick": 960,
+          "pitch": 77,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n10",
+          "tick": 25920,
+          "dur_tick": 960,
+          "pitch": 79,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n11",
+          "tick": 26880,
+          "dur_tick": 960,
+          "pitch": 81,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●○○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n12",
+          "tick": 30720,
+          "dur_tick": 960,
+          "pitch": 83,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "○○○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n13",
+          "tick": 31680,
+          "dur_tick": 960,
+          "pitch": 81,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●○○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n14",
+          "tick": 32640,
+          "dur_tick": 960,
+          "pitch": 79,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n15",
+          "tick": 36480,
+          "dur_tick": 960,
+          "pitch": 77,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n16",
+          "tick": 37440,
+          "dur_tick": 960,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n17",
+          "tick": 38400,
+          "dur_tick": 960,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n18",
+          "tick": 42240,
+          "dur_tick": 1920,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "tenuto"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n19",
+          "tick": 46080,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n20",
+          "tick": 46560,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n21",
+          "tick": 47040,
+          "dur_tick": 480,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n22",
+          "tick": 47520,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n23",
+          "tick": 48000,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n24",
+          "tick": 48480,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n25",
+          "tick": 48960,
+          "dur_tick": 960,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n26",
+          "tick": 49920,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n27",
+          "tick": 50400,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n28",
+          "tick": 50880,
+          "dur_tick": 960,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n29",
+          "tick": 51840,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n30",
+          "tick": 52320,
+          "dur_tick": 480,
+          "pitch": 79,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n31",
+          "tick": 52800,
+          "dur_tick": 960,
+          "pitch": 79,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n32",
+          "tick": 53760,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n33",
+          "tick": 54240,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n34",
+          "tick": 54720,
+          "dur_tick": 480,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n35",
+          "tick": 55200,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n36",
+          "tick": 55680,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n37",
+          "tick": 56160,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n38",
+          "tick": 56640,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n39",
+          "tick": 57120,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n40",
+          "tick": 57600,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n41",
+          "tick": 58080,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n42",
+          "tick": 58560,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n43",
+          "tick": 59040,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        },
+        {
+          "id": "n44",
+          "tick": 59520,
+          "dur_tick": 1920,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.holes.full_scale.01@1"
+          }
+        }
+      ],
+      "chords": [],
+      "lyrics": [],
+      "patterns": []
+    }
+  ],
+  "provenance": {
+    "created_by": "ingest",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Goodnight_Ladies",
+      "https://en.wikipedia.org/wiki/Mary_Had_a_Little_Lamb",
+      "https://en.wikipedia.org/wiki/Edwin_Pearce_Christy",
+      "docs/05_su-pham-va-gia-su-1-1.md#2.5",
+      "tasks/T5b_phu-luc-nhac.md#4.1",
+      "tasks/T5b_phu-luc-nhac.md#11.1",
+      "agent_composed:score://sa07_mary_had_a_little_lamb_do@1.0.0#part=sao_c5_beginner&bars=1-24"
+    ],
+    "parent_versions": [],
+    "tools": [
+      {
+        "name": "tools/build_content.py",
+        "version": "0.1.0"
+      },
+      {
+        "name": "vocaverse_score",
+        "version": "0.1.0"
+      }
+    ]
+  }
+}

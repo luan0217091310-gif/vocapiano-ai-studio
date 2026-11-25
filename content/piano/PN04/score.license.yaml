@@ -1,0 +1,32 @@
+# Hồ sơ bản quyền bản nhạc nguồn VocaVerse (D02 — Làn Sản phẩm d02-prod)
+# Sinh tự động và kiểm chứng bởi tools/build_content.py & tools/license_gate.py
+class: public_domain
+pd_scope: global
+title: PN04 — Au clair de la lune (tay trái khóa Fa)
+score_id: pn04_au_clair_de_la_lune
+version: 1.0.0
+lesson_id: lesson.pn04
+instrument: piano
+level: beginner
+composers:
+- Khuyết danh (Dân ca Pháp thế kỷ 18, in từ năm 1820)
+arrangers:
+- Ban Sư phạm VocaVerse (chuyển khóa Fa thế Đô C3–G3 không lời; thêm 4 ô khởi động 5 ngón và 4 ô đọc nhạc)
+license_ref: rights://vocaverse_inhouse_mvp_alpha@1.0.0
+evidence_url: https://en.wikipedia.org/wiki/Au_clair_de_la_lune
+evidence_accessed: '2026-11-18'
+evidence_summary: 'Dân ca Pháp khuyết danh thế kỷ 18, công bố sớm nhất năm 1820 (Les Voitures Versées)
+  và 1858 — vượt 75 năm từ ngày công bố theo Điều 27 Luật SHTT VN và công bố trước 1930 => PD toàn cầu
+  (truy cập 2026-11-18). Ô 1-4 và ô 13-16 do agent soạn (phụ lục T5b §3.4): publishable: false tới khi
+  giáo viên piano ký đồng soạn (R4 C4).'
+agent_composed_bars:
+- 'ô 1-4: khởi động 5 ngón Đô3–Sol3 tay trái (tasks/T5b_phu-luc-nhac.md §3.4)'
+- 'ô 13-16: 4 ô đọc nhạc khóa Fa, giai điệu mới (tasks/T5b_phu-luc-nhac.md §3.4)'
+expert_verified_by: PENDING
+publishable: false
+territories:
+- VN
+- GLOBAL
+allowed_uses:
+- in_app
+vocascore_sha256: 5296b0917efd5b749ccc79bcff00bc1ab2ac007f653917d4fcf3d530ac37268e

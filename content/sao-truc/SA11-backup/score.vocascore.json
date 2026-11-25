@@ -1,0 +1,624 @@
+{
+  "schema": "vocascore/0.1",
+  "id": "sa11_backup_etude_lay_don",
+  "version": "1.0.0",
+  "title": "SA11 (Dự phòng) — Étude kỹ thuật láy đơn trên sáo C5",
+  "composers": [
+    "Ban Sư phạm VocaVerse"
+  ],
+  "lyricists": [],
+  "arrangers": [],
+  "license": {
+    "class": "original_inhouse",
+    "holder": "VocaVerse Studio (D02)",
+    "license_ref": "rights://vocaverse_inhouse_mvp_alpha@1.0.0",
+    "evidence_url": "content/rights/vocaverse_inhouse_mvp_alpha.yaml",
+    "territories": [
+      "VN",
+      "GLOBAL"
+    ],
+    "allowed_uses": [
+      "in_app"
+    ],
+    "attribution": "Bài tập nội bộ MVP-α do agent sinh bằng tools/build_content.py cho Ban Sư phạm VocaVerse — Étude kỹ thuật láy đơn dự phòng cho lesson.sa11; chưa có người đồng sáng tác; chờ giáo viên hoặc nhạc sĩ người thật duyệt, ký đồng sáng tác kèm nhật ký đóng góp (hợp đồng nội bộ PENDING, R4 C4). Bản ký âm sáo Đô C5 chờ chuyên gia sáo trúc ký duyệt FluteChart C5.",
+    "expert_verified_by": "PENDING",
+    "consent_refs": []
+  },
+  "ppq": 480,
+  "tempo_map": [
+    {
+      "tick": 0,
+      "bpm": 68.0
+    }
+  ],
+  "meter_map": [
+    {
+      "tick": 0,
+      "numerator": 4,
+      "denominator": 4
+    }
+  ],
+  "key_map": [
+    {
+      "tick": 0,
+      "tonic": "C",
+      "mode": "major"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec_lay_a",
+      "name": "Láy đơn trên Sol5, Mi5, Rê5 (ô 1-4)",
+      "start_tick": 0,
+      "end_tick": 7680
+    },
+    {
+      "id": "sec_lay_b",
+      "name": "Láy đơn trên La5, Sol5 & kết Đô5 (ô 5-8)",
+      "start_tick": 7680,
+      "end_tick": 15360
+    }
+  ],
+  "parts": [
+    {
+      "id": "sao_c5_easy",
+      "instrument": "sao_truc",
+      "instrument_config": {
+        "giong": "C5",
+        "holes": 6
+      },
+      "role": "solo",
+      "level": "easy",
+      "notes": [
+        {
+          "id": "n01",
+          "tick": 0,
+          "dur_tick": 960,
+          "pitch": 79,
+          "pitch_bend": [
+            {
+              "rel_tick": 0,
+              "delta_cents": 0.0,
+              "curve": "step"
+            },
+            {
+              "rel_tick": 40,
+              "delta_cents": 200.0,
+              "curve": "step"
+            },
+            {
+              "rel_tick": 100,
+              "delta_cents": 0.0,
+              "curve": "linear"
+            }
+          ],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [
+            {
+              "type": "lay",
+              "target_pitch": 81,
+              "delta_cents": 200.0
+            }
+          ],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n02",
+          "tick": 960,
+          "dur_tick": 960,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n03",
+          "tick": 1920,
+          "dur_tick": 960,
+          "pitch": 76,
+          "pitch_bend": [
+            {
+              "rel_tick": 0,
+              "delta_cents": 0.0,
+              "curve": "step"
+            },
+            {
+              "rel_tick": 40,
+              "delta_cents": 300.0,
+              "curve": "step"
+            },
+            {
+              "rel_tick": 100,
+              "delta_cents": 0.0,
+              "curve": "linear"
+            }
+          ],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [
+            {
+              "type": "lay",
+              "target_pitch": 79,
+              "delta_cents": 300.0
+            }
+          ],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n04",
+          "tick": 2880,
+          "dur_tick": 960,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n05",
+          "tick": 3840,
+          "dur_tick": 480,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [
+            {
+              "type": "luyen",
+              "target_pitch": 74
+            }
+          ],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n06",
+          "tick": 4320,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": false,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n07",
+          "tick": 4800,
+          "dur_tick": 960,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n08",
+          "tick": 6240,
+          "dur_tick": 960,
+          "pitch": 74,
+          "pitch_bend": [
+            {
+              "rel_tick": 0,
+              "delta_cents": 0.0,
+              "curve": "step"
+            },
+            {
+              "rel_tick": 40,
+              "delta_cents": 200.0,
+              "curve": "step"
+            },
+            {
+              "rel_tick": 100,
+              "delta_cents": 0.0,
+              "curve": "linear"
+            }
+          ],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [
+            {
+              "type": "lay",
+              "target_pitch": 76,
+              "delta_cents": 200.0
+            }
+          ],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n09",
+          "tick": 7680,
+          "dur_tick": 960,
+          "pitch": 81,
+          "pitch_bend": [
+            {
+              "rel_tick": 0,
+              "delta_cents": 0.0,
+              "curve": "step"
+            },
+            {
+              "rel_tick": 40,
+              "delta_cents": 200.0,
+              "curve": "step"
+            },
+            {
+              "rel_tick": 100,
+              "delta_cents": 0.0,
+              "curve": "linear"
+            }
+          ],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [
+            {
+              "type": "lay",
+              "target_pitch": 83,
+              "delta_cents": 200.0
+            }
+          ],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●○○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n10",
+          "tick": 8640,
+          "dur_tick": 960,
+          "pitch": 79,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n11",
+          "tick": 9600,
+          "dur_tick": 960,
+          "pitch": 79,
+          "pitch_bend": [
+            {
+              "rel_tick": 0,
+              "delta_cents": 0.0,
+              "curve": "step"
+            },
+            {
+              "rel_tick": 40,
+              "delta_cents": 200.0,
+              "curve": "step"
+            },
+            {
+              "rel_tick": 100,
+              "delta_cents": 0.0,
+              "curve": "linear"
+            }
+          ],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [
+            {
+              "type": "lay",
+              "target_pitch": 81,
+              "delta_cents": 200.0
+            }
+          ],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●○○○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n12",
+          "tick": 10560,
+          "dur_tick": 960,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n13",
+          "tick": 11520,
+          "dur_tick": 480,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [
+            {
+              "type": "luyen",
+              "target_pitch": 76
+            }
+          ],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n14",
+          "tick": 12000,
+          "dur_tick": 480,
+          "pitch": 76,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [
+            "legato"
+          ],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●○○",
+            "octave": 1,
+            "tongue": false,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n15",
+          "tick": 12480,
+          "dur_tick": 960,
+          "pitch": 74,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●○",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": false
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        },
+        {
+          "id": "n16",
+          "tick": 13920,
+          "dur_tick": 960,
+          "pitch": 72,
+          "pitch_bend": [],
+          "velocity": 78,
+          "voice": 1,
+          "staff": 1,
+          "tie_next": false,
+          "articulations": [],
+          "ornaments": [],
+          "technique": {
+            "source": "auto",
+            "confidence": 0.98,
+            "kind": "wind",
+            "fingering": "●●●●●●",
+            "octave": 1,
+            "tongue": true,
+            "breath_before": true
+          },
+          "pedagogy": {
+            "skill_node": "kb://sao.orn.lay_don.01@1"
+          }
+        }
+      ],
+      "chords": [],
+      "lyrics": [],
+      "patterns": []
+    }
+  ],
+  "provenance": {
+    "created_by": "compose",
+    "sources": [
+      "docs/05_su-pham-va-gia-su-1-1.md#2.5"
+    ],
+    "parent_versions": [],
+    "tools": [
+      {
+        "name": "tools/build_content.py",
+        "version": "0.1.0"
+      },
+      {
+        "name": "vocaverse_score",
+        "version": "0.1.0"
+      }
+    ]
+  }
+}

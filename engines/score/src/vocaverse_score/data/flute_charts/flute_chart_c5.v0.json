@@ -1,0 +1,666 @@
+{
+  "schema": "vocaverse.flute_chart/0.1",
+  "chart_id": "flute_chart.sao_truc.c5",
+  "chart_version": "0.2.0-v0",
+  "instrument": "sao_truc",
+  "giong": "C5",
+  "tonic_midi": 72,
+  "range_midi": [72, 96],
+  "beginner_range_midi": [72, 83],
+  "holes": 6,
+  "hole_numbering": "Lỗ bấm đánh số 1..6 tính từ lỗ gần lỗ thổi nhất (lỗ 1) xuống lỗ gần đuôi sáo nhất (lỗ 6). Chuỗi holes ghi đúng thứ tự lỗ 1 -> 6 (ký tự đầu là lỗ 1); ● bịt, ○ hở, ◐ nửa lỗ. Tay trên bấm lỗ 1-2-3 (ngón trỏ, giữa, áp út), tay dưới bấm lỗ 4-5-6; tay nào ở trên do upper_hand_default và tuỳ chọn upper_hand khi nạp quy định (hand_map ghi vai upper/lower, không gán cứng tay trái). Ký hiệu WFG 123/123 (sáo Rê) cùng chiều: nhóm trước dấu / là lỗ 1-3. Nguồn Việt đánh số không thống nhất (R4 N12: saotrucvietnam đếm từ đầu sáo như bảng này, Mão Mèo đếm từ dưới lên); mọi thế trích từ nguồn đã quy đổi về quy ước này. ❓ Chuyên gia xác nhận quy ước: phiếu hỏi Q01, Q02 (flute_chart_c5.v0.expert_questions.md).",
+  "expert_signed": false,
+  "signatures": {
+    "required_roles": ["chuyen_gia_sao_bac", "chuyen_gia_sao_nam"],
+    "signed_by": [],
+    "status": "PENDING_EXPERT_SIGNATURES"
+  },
+  "upper_hand_default": "L",
+  "hand_map": {
+    "1": "upper.index",
+    "2": "upper.middle",
+    "3": "upper.ring",
+    "4": "lower.index",
+    "5": "lower.middle",
+    "6": "lower.ring"
+  },
+  "sources": [
+    "docs/03_dong-co-bieu-dien-kiem-chung.md v2 §3.3 (FluteChart theo từng quãng, không giả định quãng tám giữ nguyên thế bấm, mẫu láy/vỗ)",
+    "docs/05_su-pham-va-gia-su-1-1.md v2 §2.2, §2.5 (giọng C5 mặc định, nửa lỗ chỉ từ sau bài 13 / intermediate+)",
+    "research/r4_duyet-nhac-ly-t5-t6.md §1.1 (C2, C3), §1.2 (L8, L9), §2.4 (đối chiếu từng mục FluteChart C5)",
+    "[WFG] The Woodwind Fingering Guide — Tin Whistle 6-hole (https://www.wfg.woodwind.org/tinwhistle/tw_bas_1.html, tw_bas_2.html, tw_bas_3.html, truy cập 2026-11-18)",
+    "[STVN] Sáo Trúc Việt Nam — Các nốt trên sáo 6 lỗ tone Đô (https://saotrucvietnam.com/huong-dan-nhan-biet-cac-not-nhac-tren-sao-truc-6-lo-tone-do-c/, truy cập 2026-11-18)",
+    "[MM] Sáo trúc Mão Mèo — Các nốt và cách thổi sáo 6 lỗ (https://saotrucmaomeo.com/huong-dan-ky-thuat-thoi/news/huong-dan-cac-not-va-cach-thoi-sao-6-lo.html, truy cập 2026-11-18)",
+    "[TCA] topcamam — Cách thổi nốt thăng trên sáo 6 lỗ (https://topcamam.net/huong-dan-cach-thoi-not-thang-khi-thoi-sao-truc-6-lo, truy cập 2026-11-18)",
+    "Quy ước nguồn của từng thế (T6b, R4 N13): trường source ghi mã nguồn ở trên; thế chưa có nguồn có source bắt đầu bằng ❓ và có câu hỏi tương ứng trong phiếu flute_chart_c5.v0.expert_questions.md (cùng thư mục)"
+  ],
+  "entries": {
+    "72": {
+      "midi": 72,
+      "note_name": "C5",
+      "vietnamese_name": "Đô 1",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "c5_primary_closed",
+          "holes": "●●●●●●",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.2,
+          "source": "STVN, MM ('Đô bịt kín 6 lỗ'); WFG Rê1 123/123",
+          "notes": "Âm gốc bịt kín cả 6 lỗ, hơi trầm ấm và chậm (học ở SA07 sau các âm ít lỗ). [Nguồn: STVN, MM; WFG]"
+        }
+      ]
+    },
+    "73": {
+      "midi": 73,
+      "note_name": "C#5",
+      "vietnamese_name": "Đô thăng 1",
+      "diatonic": false,
+      "fingerings": [
+        {
+          "id": "cs5_half_h6",
+          "holes": "●●●●●◐",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": true,
+          "vented": false,
+          "stability_cost": 1.6,
+          "source": "WFG Rê♯1 123/12½",
+          "notes": "Hé nửa lỗ 6 (lỗ đang bịt thấp nhất của Đô5); chỉ mở từ cấp intermediate (sau bài 13). [Nguồn: WFG Rê♯1 123/12½]"
+        }
+      ]
+    },
+    "74": {
+      "midi": 74,
+      "note_name": "D5",
+      "vietnamese_name": "Rê 1",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "d5_primary",
+          "holes": "●●●●●○",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.1,
+          "source": "STVN, MM; WFG Mi1 123/12-",
+          "notes": "Mở lỗ 6, bịt 5 lỗ trên, hơi quãng 1 ổn định. [Nguồn: STVN, MM; WFG]"
+        }
+      ]
+    },
+    "75": {
+      "midi": 75,
+      "note_name": "Eb5",
+      "vietnamese_name": "Rê thăng / Mi giáng 1",
+      "diatonic": false,
+      "fingerings": [
+        {
+          "id": "eb5_half_h5",
+          "holes": "●●●●◐○",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": true,
+          "vented": false,
+          "stability_cost": 1.5,
+          "source": "WFG Fa1 123/1½-",
+          "notes": "Hé nửa lỗ 5 (lỗ đang bịt thấp nhất của Rê5); chỉ dùng từ intermediate (sau bài 13). [Nguồn: WFG Fa1 123/1½-]"
+        },
+        {
+          "id": "eb5_fork_h5_open_h6_closed",
+          "holes": "●●●●○●",
+          "octave": 1,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 2.4,
+          "source": "TCA ('Re#: bịt 1, 2, 3, 4, 6'); đo cent: phiếu Q08",
+          "notes": "❓ Thế bấm chéo Rê♯5/Mi♭5 không nửa lỗ (bịt 1, 2, 3, 4, 6), chờ chuyên gia đo cent và ký (phiếu Q08). [Nguồn: TCA, R4 §2.4, R4 N13]"
+        }
+      ]
+    },
+    "76": {
+      "midi": 76,
+      "note_name": "E5",
+      "vietnamese_name": "Mi 1",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "e5_primary",
+          "holes": "●●●●○○",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.0,
+          "source": "STVN, MM; WFG Fa♯1 123/1--",
+          "notes": "Bịt 4 lỗ trên, mở 2 lỗ dưới. [Nguồn: STVN, MM; WFG]"
+        }
+      ]
+    },
+    "77": {
+      "midi": 77,
+      "note_name": "F5",
+      "vietnamese_name": "Fa 1",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "f5_primary",
+          "holes": "●●●○○○",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.0,
+          "source": "STVN, MM; WFG Sol1 123/---",
+          "notes": "Bịt 3 lỗ trên, mở cả 3 lỗ dưới (âm dễ ra tiếng cho SA03-SA05). [Nguồn: STVN, MM; WFG]"
+        }
+      ]
+    },
+    "78": {
+      "midi": 78,
+      "note_name": "F#5",
+      "vietnamese_name": "Fa thăng 1",
+      "diatonic": false,
+      "fingerings": [
+        {
+          "id": "fs5_half_h3",
+          "holes": "●●◐○○○",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": true,
+          "vented": false,
+          "stability_cost": 1.4,
+          "source": "WFG Sol♯1 12½/--- (R4 C2)",
+          "notes": "Hé nửa lỗ 3 (lỗ đang bịt thấp nhất của Fa5 ●●●○○○); chỉ dùng từ intermediate (sau bài 13). [Nguồn: WFG Sol♯1 12½/---, R4 C2]"
+        },
+        {
+          "id": "fs5_fork_alt",
+          "holes": "●●○●●○",
+          "octave": 1,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 2.3,
+          "source": "❓ Chưa có nguồn (R4 N13); phiếu hỏi chuyên gia Q03",
+          "notes": "❓ Ngón chéo Fa♯5 chưa có nguồn nào xác nhận (R4 N13): chờ 2 chuyên gia Bắc, Nam trả lời phiếu Q03 (giữ hay bỏ, đo cent)."
+        }
+      ]
+    },
+    "79": {
+      "midi": 79,
+      "note_name": "G5",
+      "vietnamese_name": "Sol 1",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "g5_primary",
+          "holes": "●●○○○○",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.0,
+          "source": "STVN, MM; WFG La1 12-/---",
+          "notes": "Bịt 2 lỗ trên (âm khởi đầu thuận lợi nhất ở SA03). [Nguồn: STVN, MM; WFG]"
+        }
+      ]
+    },
+    "80": {
+      "midi": 80,
+      "note_name": "Ab5",
+      "vietnamese_name": "Sol thăng / La giáng 1",
+      "diatonic": false,
+      "fingerings": [
+        {
+          "id": "ab5_half_h2",
+          "holes": "●◐○○○○",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": true,
+          "vented": false,
+          "stability_cost": 1.5,
+          "source": "WFG La♯1 1½-/--- (R4 C2)",
+          "notes": "Bịt lỗ 1, hé nửa lỗ 2 (lỗ đang bịt thấp nhất của Sol5 ●●○○○○); chỉ dùng từ intermediate (sau bài 13). [Nguồn: WFG La♯1 1½-/---, R4 C2]"
+        },
+        {
+          "id": "ab5_fork_h1_h3",
+          "holes": "●○●○○○",
+          "octave": 1,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 2.1,
+          "source": "TCA ('Sol#: bịt 1, 3', R4 C3); đo cent: phiếu Q08",
+          "notes": "❓ Thế bấm chéo Sol♯5/La♭5 không nửa lỗ (bịt lỗ 1 và lỗ 3, hạ từ La5; chuyển từ mục 82 sang theo R4 C3), chờ chuyên gia đo cent. [Nguồn: TCA]"
+        }
+      ]
+    },
+    "81": {
+      "midi": 81,
+      "note_name": "A5",
+      "vietnamese_name": "La 1",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "a5_primary",
+          "holes": "●○○○○○",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.0,
+          "source": "STVN, MM; WFG Si1 1--/---",
+          "notes": "Chỉ bịt lỗ 1. [Nguồn: STVN, MM; WFG]"
+        }
+      ]
+    },
+    "82": {
+      "midi": 82,
+      "note_name": "Bb5",
+      "vietnamese_name": "Si giáng 1",
+      "diatonic": false,
+      "fingerings": [
+        {
+          "id": "bb5_half_h1",
+          "holes": "◐○○○○○",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": true,
+          "vented": false,
+          "stability_cost": 1.3,
+          "source": "WFG Đô bình 1 ½--/--- (R4 C2)",
+          "notes": "Hé nửa lỗ 1 (lỗ đang bịt thấp nhất của La5 ●○○○○○); thế chính cho Si♭5 từ cấp intermediate (sau bài 13). [Nguồn: WFG Đô bình 1 ½--/---, R4 C2]"
+        },
+        {
+          "id": "bb5_fork_h2_h3",
+          "holes": "○●●○○○",
+          "octave": 1,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 3.2,
+          "source": "TCA ('La# (Si b): bịt 2, 3'); WFG Đô bình 1 -23/--- (R4 C3); đo cent: phiếu Q08",
+          "notes": "❓ Thế phụ ngón chéo Si♭5 không nửa lỗ (mở lỗ 1, bịt lỗ 2–3), chờ chuyên gia đo cent. [Nguồn: TCA, WFG, R4 C3]"
+        },
+        {
+          "id": "bb5_fork_h2_h3_h4",
+          "holes": "○●●●○○",
+          "octave": 1,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 3.3,
+          "source": "WFG Đô bình 1 -23/1-- ('more in tune' trên sáo ngang 6 lỗ, R4 C3); đo cent: phiếu Q08",
+          "notes": "❓ Thế phụ ngón chéo Si♭5 không nửa lỗ (mở lỗ 1, bịt lỗ 2–3–4), chờ chuyên gia đo cent. [Nguồn: WFG, R4 C3]"
+        }
+      ]
+    },
+    "83": {
+      "midi": 83,
+      "note_name": "B5",
+      "vietnamese_name": "Si 1",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "b5_primary_all_open",
+          "holes": "○○○○○○",
+          "octave": 1,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.15,
+          "source": "STVN, MM ('Si mở toàn bộ 6 lỗ'); WFG Đô♯2 ---/---",
+          "notes": "Mở toàn bộ 6 lỗ bấm, giữ thân sáo bằng ngón cái trên, ngón cái dưới và ngón út dưới. [Nguồn: STVN, MM; WFG]"
+        },
+        {
+          "id": "b5_anchored_h6",
+          "holes": "○○○○○●",
+          "octave": 1,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.9,
+          "source": "WFG Đô♯2 ---/--3 ('Better balance', R4 N13); đo cent: phiếu Q08, chọn thế dạy: phiếu Q09",
+          "notes": "Đóng lỗ 6 làm điểm tỳ chống lăn sáo (chênh vài cent tuỳ sáo, chờ chuyên gia ký). [Nguồn: WFG, R4 N13]"
+        }
+      ]
+    },
+    "84": {
+      "midi": 84,
+      "note_name": "C6",
+      "vietnamese_name": "Đô 2",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "c6_primary_vented_h1",
+          "holes": "○●●●●●",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": true,
+          "stability_cost": 0.3,
+          "source": "WFG Rê2 -23/123 ('Basic'); MM ('bịt hết và mở nốt Si … thổi nhẹ')",
+          "notes": "Mở lỗ 1 làm lỗ thông hơi (vented octave), giúp Đô 2 bắt âm sạch, không vỡ xuống Đô 1. [Nguồn: WFG, MM, R4 L8]"
+        },
+        {
+          "id": "c6_overblow_closed_t4",
+          "holes": "●●●●●●",
+          "octave": 2,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.9,
+          "source": "STVN ('bịt hết, thổi mạnh'); đo cent: phiếu Q08",
+          "notes": "Thổi vọt quãng 2 giữ kín 6 lỗ (dùng khi nối nhanh hoặc theo nguồn STVN). [Nguồn: STVN, R4 L8]"
+        }
+      ]
+    },
+    "85": {
+      "midi": 85,
+      "note_name": "C#6",
+      "vietnamese_name": "Đô thăng 2",
+      "diatonic": false,
+      "fingerings": [
+        {
+          "id": "cs6_half_h6",
+          "holes": "●●●●●◐",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": true,
+          "vented": false,
+          "stability_cost": 1.8,
+          "source": "WFG Rê♯2 123/12½ (R4 L8)",
+          "notes": "Bịt 5 lỗ trên, hé nửa lỗ 6 với hơi quãng 2 (không thông hơi lỗ 1). [Nguồn: WFG Rê♯2 123/12½, R4 L8]"
+        },
+        {
+          "id": "cs6_vented_half_h6",
+          "holes": "○●●●●◐",
+          "octave": 2,
+          "role": "alternate",
+          "uses_half_hole": true,
+          "vented": true,
+          "stability_cost": 2.2,
+          "source": "❓ Chưa có nguồn (R4 L8); phiếu hỏi chuyên gia Q04",
+          "notes": "❓ Biến thể mở lỗ 1 thông hơi kết hợp hé nửa lỗ 6 ở quãng 2, chưa có nguồn (R4 L8): chờ chuyên gia trả lời phiếu Q04 (giữ hay bỏ, đo cent)."
+        }
+      ]
+    },
+    "86": {
+      "midi": 86,
+      "note_name": "D6",
+      "vietnamese_name": "Rê 2",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "d6_primary_overblow",
+          "holes": "●●●●●○",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.35,
+          "source": "STVN ('D cao: mở lỗ cuối + thổi mạnh'); WFG Mi2 123/12- (R4 L8)",
+          "notes": "Mở lỗ 6, bịt 5 lỗ trên, tăng tốc hơi lên quãng 2. [Nguồn: STVN, WFG Mi2 123/12-, R4 L8]"
+        },
+        {
+          "id": "d6_vented_h1_alt",
+          "holes": "○●●●●○",
+          "octave": 2,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": true,
+          "stability_cost": 2.5,
+          "source": "❓ Chưa có nguồn (R4 L8: thế thông hơi cũ chuyển thành thế phụ); phiếu hỏi chuyên gia Q05",
+          "notes": "❓ Thế phụ mở lỗ 1 thông hơi và mở lỗ 6 ở Rê 2, chưa có nguồn (R4 L8): chờ 2 chuyên gia sáo Bắc, Nam trả lời phiếu Q05 (cùng câu T5b §9 S4)."
+        }
+      ]
+    },
+    "87": {
+      "midi": 87,
+      "note_name": "Eb6",
+      "vietnamese_name": "Rê thăng / Mi giáng 2",
+      "diatonic": false,
+      "fingerings": [
+        {
+          "id": "eb6_half_h5",
+          "holes": "●●●●◐○",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": true,
+          "vented": false,
+          "stability_cost": 1.8,
+          "source": "WFG Fa2 123/1½-",
+          "notes": "Hé nửa lỗ 5 với hơi quãng 2. [Nguồn: WFG Fa2 123/1½-]"
+        },
+        {
+          "id": "eb6_vented_half_h5",
+          "holes": "○●●●◐○",
+          "octave": 2,
+          "role": "alternate",
+          "uses_half_hole": true,
+          "vented": true,
+          "stability_cost": 2.0,
+          "source": "❓ Chưa có nguồn (R4 §2.4); phiếu hỏi chuyên gia Q06",
+          "notes": "❓ Biến thể mở lỗ 1 thông hơi ở quãng 2, chưa có nguồn (R4 §2.4): chờ chuyên gia trả lời phiếu Q06 (giữ hay bỏ, đo cent)."
+        }
+      ]
+    },
+    "88": {
+      "midi": 88,
+      "note_name": "E6",
+      "vietnamese_name": "Mi 2",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "e6_primary",
+          "holes": "●●●●○○",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.4,
+          "source": "STVN, MM; WFG Fa♯2 123/1--",
+          "notes": "Bịt 4 lỗ trên, tăng tốc luồng hơi lên quãng 2. [Nguồn: STVN, MM; WFG]"
+        }
+      ]
+    },
+    "89": {
+      "midi": 89,
+      "note_name": "F6",
+      "vietnamese_name": "Fa 2",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "f6_primary",
+          "holes": "●●●○○○",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.45,
+          "source": "STVN, MM; WFG Sol2 123/---",
+          "notes": "Bịt 3 lỗ trên, thu hẹp khe môi tạo Fa 2. [Nguồn: STVN, MM; WFG]"
+        }
+      ]
+    },
+    "90": {
+      "midi": 90,
+      "note_name": "F#6",
+      "vietnamese_name": "Fa thăng 2",
+      "diatonic": false,
+      "fingerings": [
+        {
+          "id": "fs6_half_h3",
+          "holes": "●●◐○○○",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": true,
+          "vented": false,
+          "stability_cost": 1.9,
+          "source": "WFG Sol♯2 12½/--- (R4 C2)",
+          "notes": "Hé nửa lỗ 3 (lỗ đang bịt thấp nhất của Fa6 ●●●○○○) ở quãng 2. [Nguồn: WFG Sol♯2 12½/---, R4 C2]"
+        }
+      ]
+    },
+    "91": {
+      "midi": 91,
+      "note_name": "G6",
+      "vietnamese_name": "Sol 2",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "g6_primary",
+          "holes": "●●○○○○",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.55,
+          "source": "STVN, MM; WFG La2 12-/---",
+          "notes": "Bịt 2 lỗ trên với hơi quãng 2 tập trung. [Nguồn: STVN, MM; WFG]"
+        }
+      ]
+    },
+    "92": {
+      "midi": 92,
+      "note_name": "Ab6",
+      "vietnamese_name": "Sol thăng / La giáng 2",
+      "diatonic": false,
+      "fingerings": [
+        {
+          "id": "ab6_half_h2",
+          "holes": "●◐○○○○",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": true,
+          "vented": false,
+          "stability_cost": 2.1,
+          "source": "WFG La♯2 1½-/--- (R4 C2)",
+          "notes": "Bịt lỗ 1, hé nửa lỗ 2 (lỗ đang bịt thấp nhất của Sol6 ●●○○○○) ở quãng 2. [Nguồn: WFG La♯2 1½-/---, R4 C2]"
+        }
+      ]
+    },
+    "93": {
+      "midi": 93,
+      "note_name": "A6",
+      "vietnamese_name": "La 2",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "a6_primary",
+          "holes": "●○○○○○",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 0.75,
+          "source": "STVN, MM; WFG Si2 1--/---",
+          "notes": "Bịt lỗ 1, luồng hơi nhanh và gọn. [Nguồn: STVN, MM; WFG]"
+        },
+        {
+          "id": "a6_stabilized_lower",
+          "holes": "●○○●●○",
+          "octave": 2,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 1.1,
+          "source": "❓ Chưa có nguồn (R4 N13); phiếu hỏi chuyên gia Q07",
+          "notes": "❓ Đóng thêm lỗ 4–5 để giữ cao độ La 2, chưa có nguồn nào xác nhận (R4 N13): chờ chuyên gia trả lời phiếu Q07 (giữ hay bỏ, đo cent)."
+        }
+      ]
+    },
+    "94": {
+      "midi": 94,
+      "note_name": "Bb6",
+      "vietnamese_name": "Si giáng 2",
+      "diatonic": false,
+      "fingerings": [
+        {
+          "id": "bb6_half_h1",
+          "holes": "◐○○○○○",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": true,
+          "vented": false,
+          "stability_cost": 2.2,
+          "source": "WFG Đô bình 2 ½--/--- (R4 C2)",
+          "notes": "Hé nửa lỗ 1 (lỗ đang bịt thấp nhất của La6 ●○○○○○) với tốc độ hơi quãng 2. [Nguồn: WFG Đô bình 2 ½--/---, R4 C2]"
+        }
+      ]
+    },
+    "95": {
+      "midi": 95,
+      "note_name": "B6",
+      "vietnamese_name": "Si 2",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "b6_primary_all_open",
+          "holes": "○○○○○○",
+          "octave": 2,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 1.2,
+          "source": "STVN ('B cao: mở tất cả'); WFG Đô♯3 ---/--- (R4 L8)",
+          "notes": "Mở toàn bộ 6 lỗ với luồng hơi quãng 2 nhanh và tập trung. [Nguồn: STVN, WFG Đô♯3 ---/---, R4 L8]"
+        },
+        {
+          "id": "b6_anchored_h6",
+          "holes": "○○○○○●",
+          "octave": 2,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": false,
+          "stability_cost": 1.4,
+          "source": "WFG Đô♯3 ---/--3 (R4 L8); đo cent: phiếu Q08",
+          "notes": "❓ Đóng lỗ 6 làm điểm tỳ ổn định ở Si 2, chờ chuyên gia đo cent và ký. [Nguồn: WFG Đô♯3 ---/--3, R4 L8]"
+        }
+      ]
+    },
+    "96": {
+      "midi": 96,
+      "note_name": "C7",
+      "vietnamese_name": "Đô 3",
+      "diatonic": true,
+      "fingerings": [
+        {
+          "id": "c7_primary_harmonic_h2_h3",
+          "holes": "○●●○○○",
+          "octave": 3,
+          "role": "primary",
+          "uses_half_hole": false,
+          "vented": true,
+          "stability_cost": 2.4,
+          "source": "TCA ('La# (Si b): bịt 2, 3. Thổi mạnh là ĐÔ 3', R4 L8)",
+          "notes": "Đô 3 mở lỗ 1, bịt lỗ 2–3, mở lỗ 4–5–6 với luồng hơi quãng 3 mạnh. [Nguồn: TCA, R4 L8]"
+        },
+        {
+          "id": "c7_alt_vented_h1",
+          "holes": "○●●●●●",
+          "octave": 3,
+          "role": "alternate",
+          "uses_half_hole": false,
+          "vented": true,
+          "stability_cost": 2.6,
+          "source": "MM ('Đô 3 … thổi tương tự như Đô 2 và thổi mạnh hơn'); WFG Rê3 -23/123 (R4 L8); đo cent: phiếu Q08",
+          "notes": "Đô 3 mở lỗ 1 thông hơi, bịt lỗ 2..6 (như thế chính Đô 2 nhưng thổi mạnh hơn). [Nguồn: MM, WFG Rê3 -23/123, R4 L8]"
+        }
+      ]
+    }
+  },
+  "ornaments": {
+    "lay": {
+      "status": "PENDING",
+      "expert_signed": false,
+      "fields": ["main_midi", "tap_hole", "target_midi", "frame_count"],
+      "entries": [],
+      "notes": "❓ Chờ 2 chuyên gia sáo Bắc và Nam chốt mẫu láy/vỗ (nốt chính -> ngón/lỗ chớp -> cao độ đích -> số khung ở 60 fps) theo docs/03 §3.3 và R4 L9; phiếu hỏi chuyên gia Q10."
+    }
+  }
+}

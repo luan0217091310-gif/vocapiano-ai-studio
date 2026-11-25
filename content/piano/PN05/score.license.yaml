@@ -1,0 +1,30 @@
+# Hồ sơ bản quyền bản nhạc nguồn VocaVerse (D02 — Làn Sản phẩm d02-prod)
+# Sinh tự động và kiểm chứng bởi tools/build_content.py & tools/license_gate.py
+class: public_domain
+pd_scope: global
+title: PN05 — Hänschen klein (legato, staccato trong quãng 5, p/f)
+score_id: pn05_hanschen_klein
+version: 1.0.0
+lesson_id: lesson.pn05
+instrument: piano
+level: beginner
+composers:
+- Dân ca Đức thế kỷ 19 (thời kỳ Biedermeier 1815-1848)
+lyricists:
+- Franz Wiedemann (1821-1882); bản thiếu nhi rút gọn Otto Frömmel (1873-1940) — bản nhạc độc tấu không
+  dùng lời
+evidence_url: https://en.wikipedia.org/wiki/H%C3%A4nschen_klein
+evidence_accessed: '2026-11-18'
+evidence_summary: Dân ca Đức thời kỳ Biedermeier (1815–1848), lời gốc Franz Wiedemann (1821–1882), bản
+  rút gọn in năm 1900 của Otto Frömmel (1873–1940) — mọi tác giả mất <= 1940 (< 1955) và in trước 1930
+  => PD toàn cầu (truy cập 2026-11-18).
+publishable: true
+territories:
+- VN
+- GLOBAL
+allowed_uses:
+- lesson_video
+- performance_video
+- shorts
+- in_app
+vocascore_sha256: f281a0309b60cba0e12c3a0012e738df22d78b037f7c69f0ac268cbec9b9d5b7
